@@ -1,7 +1,7 @@
 format: jb-book
 root: docs/intro.md
 parts:
-  - caption: Topic
+  - caption: My Topic
     chapters:
     - file: docs/basics.ipynb
   - caption: References
