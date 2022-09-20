@@ -1,6 +1,5 @@
 # Course support
 
-
 Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.
 
 ## Lectures and labs

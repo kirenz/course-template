@@ -18,7 +18,7 @@
 
 ## Introduction
 
-**TL;DR**: *Pick a data set and do perform an analysis. That is your final project.*
+**TL;DR**: *Pick a data set and perform an analysis. That is your final project.*
 
 The goal of the final project is for you to use regression analysis to analyze a data set of your own choosing.
 The data set may already exist or you may collect your own data by scraping the web.
