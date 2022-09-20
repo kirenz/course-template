@@ -120,7 +120,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="course-syllabus.html">
-   Syllabus
+   Course syllabus
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -135,7 +135,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="course-links.html">
-     Welcome
+     Useful links
     </a>
    </li>
    <li class="toctree-l2">
@@ -145,7 +145,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="course-faq.html">
-     Welcome
+     FAQ
     </a>
    </li>
   </ul>
@@ -157,10 +157,22 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="project-description.html">
-   Timeline
+   Project description
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="project-tips-resources.html">
+     Tips &amp; resources
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -213,35 +225,6 @@ title="Toggle navigation"
         
     </div>
     <div class="header-article__right">
-<div class="menu-dropdown menu-dropdown-launch-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Launch interactive content">
-      <i class="fas fa-rocket"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://colab.research.google.com/github/kirenz/course-template/blob/main/docs/schedule.ipynb"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Launch on Colab"
->
-  
-
-<span class="headerbtn__icon-container">
-  
-    <img src="../_static/images/logo_colab.png">
-  </span>
-<span class="headerbtn__text-container">Colab</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
 <button onclick="toggleFullScreen()"
   class="headerbtn"
   data-toggle="tooltip"
@@ -281,7 +264,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/kirenz/course-template/issues/new?title=Issue%20on%20page%20%2Fdocs/schedule.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/kirenz/course-template/issues/new?title=Issue%20on%20page%20%2Fdocs/course-schedule.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -309,7 +292,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="../_sources/docs/schedule.ipynb"
+        <a href="../_sources/docs/course-schedule.md"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -320,7 +303,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.ipynb</span>
+<span class="headerbtn__text-container">.md</span>
 </a>
 
       </li>

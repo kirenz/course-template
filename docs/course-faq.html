@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Welcome &#8212; Course template</title>
+    <title>FAQ &#8212; Course template</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -53,7 +53,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Timeline" href="project-description.html" />
+    <link rel="next" title="Project description" href="project-description.html" />
     <link rel="prev" title="Course support" href="course-support.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -122,7 +122,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="course-syllabus.html">
-   Syllabus
+   Course syllabus
   </a>
   <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -137,7 +137,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="course-links.html">
-     Welcome
+     Useful links
     </a>
    </li>
    <li class="toctree-l2">
@@ -147,7 +147,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
-     Welcome
+     FAQ
     </a>
    </li>
   </ul>
@@ -159,10 +159,22 @@ const thebe_selector_output = ".output, .cell_output"
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="project-description.html">
-   Timeline
+   Project description
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="project-tips-resources.html">
+     Tips &amp; resources
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -319,23 +331,80 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope">
+   How do I export my assignment PDF from RStudio to upload to Gradescope?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-can-i-submit-my-assignment-to-gradescope">
+   How can I submit my assignment to Gradescope?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers">
+   Can I use a local install of R and RStudio instead of using the RStudio containers?
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Welcome</h1>
+                <h1>FAQ</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope">
+   How do I export my assignment PDF from RStudio to upload to Gradescope?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-can-i-submit-my-assignment-to-gradescope">
+   How can I submit my assignment to Gradescope?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers">
+   Can I use a local install of R and RStudio instead of using the RStudio containers?
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -343,15 +412,42 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="welcome">
-<h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">#</a></h1>
-<p>The goal of this tutorial is to give you a first impression of some important tools and concepts in Python when doing data science or statistics projects.</p>
-<p>A typical project looks something like this <span id="id1">[]</span>:</p>
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/data-science.png"><img alt="datascience" class="bg-primary mb-1 align-center" src="../_images/data-science.png" style="width: 600px;" /></a>
-<hr class="docutils" />
-<p>This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.</p>
-<p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br /></p>
-<p>This website is built with <a class="reference external" href="https://jupyterbook.org/intro.html">Jupyter Book</a>. <a target="_blank" href="https://icons8.de/icon/aL7NtSh6zELd/streudiagramm"> </a> Logo by <a target="_blank" href="https://icons8.de">Icons8</a></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="faq">
+<h1>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">#</a></h1>
+<section id="how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope">
+<h2>How do I export my assignment PDF from RStudio to upload to Gradescope?<a class="headerlink" href="#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope" title="Permalink to this headline">#</a></h2>
+<p>Go to your <em>Files</em> tab, check the box next to the file you want to download, then click on the blue gear icon on the Files tab to reveal the drop down menu, and select <em>Export</em>… If you have selected multiple files to export, RStudio will zip them up into a single zip file for you.
+If you’ve selected just a single file, it will only download that.
+The downloaded file will go to wherever files you download off the internet goes on your computer (usually your Downloads folder).</p>
+</section>
+<section id="how-can-i-submit-my-assignment-to-gradescope">
+<h2>How can I submit my assignment to Gradescope?<a class="headerlink" href="#how-can-i-submit-my-assignment-to-gradescope" title="Permalink to this headline">#</a></h2>
+<p>The instructions for submitting your assignment to Gradescope can be found <a class="reference external" href="https://help.gradescope.com/article/ccbpppziu9-student-submit-work#submitting_a_pdf">here</a>.
+In a nutshell, you’ll upload your PDF and them mark the page(s) where each question can be found.
+It’s OK if a question spans multiple pages, just mark them all.
+It’s also OK if a page includes multiple questions.</p>
+</section>
+<section id="can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers">
+<h2>Can I use a local install of R and RStudio instead of using the RStudio containers?<a class="headerlink" href="#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers" title="Permalink to this headline">#</a></h2>
+<p>The short answer is, I’d rather you didn’t, to save yourself some headache.
+But, the long answer is, sure!
+But you will need to install a specific versions of R and RStudio for everything to work as expected.
+You will also need to install the R packages we’re using as well as have Git installed on your computer.
+These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems.
+Myself and the TAs are always happy to provide help with any computational questions when you’re working in the containers we have provided for you.
+If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.</p>
+<p>If you want to take this path, here is what you need to do:</p>
+<ul class="simple">
+<li><p>Download and install R 4.1.2: <a class="reference external" href="https://cran.r-project.org/">https://cran.r-project.org/</a></p></li>
+<li><p>Download and install a daily build of RStudio: <a class="reference external" href="https://dailies.rstudio.com/">https://dailies.rstudio.com/</a></p></li>
+<li><p>Install Quarto CLI: <a class="reference external" href="https://quarto.org/docs/getting-started/installation.html">https://quarto.org/docs/getting-started/installation.html</a></p></li>
+<li><p>Install Git: <a class="reference external" href="https://happygitwithr.com/install-git.html">https://happygitwithr.com/install-git.html</a></p></li>
+<li><p>Install any necessary packages with <code class="docutils literal notranslate"><span class="pre">install.packages(&quot;___&quot;)</span></code></p></li>
+</ul>
+<p>And I’d like to reiterate again that successful installation of these software is <strong>not</strong> a learning goal of this course.
+So if any of this seems tedious or intimidating in any way, just use the computing environment we have set up for you.
+More on that <span class="xref myst">here</span>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -391,7 +487,7 @@ title="Print to PDF"
     <a class='right-next' id="next-link" href="project-description.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Timeline</p>
+        <p class="prev-next-title">Project description</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
