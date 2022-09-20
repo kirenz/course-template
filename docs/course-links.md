@@ -1,22 +1,11 @@
-# Welcome
-
-The goal of this tutorial is to give you a first impression of some important tools and concepts in Python when doing data science or statistics projects. 
-
-A typical project looks something like this {cite:p}`Wickham2016`: 
-
-```{image} ../_static/img/data-science.png
-:alt: datascience
-:class: bg-primary mb-1
-:width: 600px
-:align: center
-```
+# Useful links
 
 
----
-
-This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
-
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />
-
-
-This website is built with [Jupyter Book](https://jupyterbook.org/intro.html). <a target="_blank" href="https://icons8.de/icon/aL7NtSh6zELd/streudiagramm"> </a> Logo by <a target="_blank" href="https://icons8.de">Icons8</a>
+|                            |                                                                                                                                      |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| RStudio containers         | 🔗 on [Duke Container Manager](https://cmgr.oit.duke.edu/containers)                                                                  |
+| Course GitHub organization | 🔗 on [GitHub](https://github.com/sta210-s22)                                                                                        |
+| Discussion forum           | 🔗 on [Sakai](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b)                                                                 |
+| Lecture streaming and recordings         | 🔗 on [Panopto](https://duke.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22d6c1d58a-cb6d-4732-9d4b-ae0c011bf767%22) |
+| Gradebook                  | 🔗 on [Sakai](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/69078433-67a6-4054-a2e7-9e6c202ecdc3/)     |
+| Virtual meetings           | 🔗 on [Sakai](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562)      |
