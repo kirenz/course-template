@@ -26,7 +26,7 @@ The data set may already exist or you may collect your own data by scraping the 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
 The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a data set to analyze it in a meaningful way.
 
-All analyses must be done in RStudio, and all components of the project **must be reproducible** (with the exception of the presentation).
+All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the presentation).
 
 ### Logistics
 
@@ -163,7 +163,6 @@ The purpose of the draft and peer review is to give you an opportunity to get ea
 Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.
 
 Write the draft in the **written-report.qmd** file in your project repo.
-You do not need to submit the draft on Gradescope.
 
 Below is a brief description of the sections to focus on in the draft:
 
