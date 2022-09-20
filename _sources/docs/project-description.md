@@ -2,23 +2,23 @@
 
 ## Timeline
 
-[Topic ideas](#topic-ideas) due Fri, Feb 18
+[](topic-ideas) due Fri, Feb 18
 
-[Proposal](#project-proposal) due Fri, Mar 18
+[](project-proposal) due Fri, Mar 18
 
-[Draft report](#draft-report) due Fri, Apr 8
+[](draft-report) due Fri, Apr 8
 
-[Peer review](#peer-review) due Fri, Apr 15
+[](peer-review) due Fri, Apr 15
 
-[Final report](#written-report) due Mon, Apr 25
+[](written-report) due Mon, Apr 25
 
-[Video presentation + slides](#video-presentation--slides) and [final GitHub repo](#reproducibility---organization) due Thu, Apr 28
+[](video-presentation-slides) and [final GitHub repo](reproducibility) due Thu, Apr 28
 
 [Presentation comments](#presentation-comments) due Sat, Apr 30
 
 ## Introduction
 
-**TL;DR**: *Pick a data set and do a regression analysis. That is your final project.*
+**TL;DR**: *Pick a data set and do perform an analysis. That is your final project.*
 
 The goal of the final project is for you to use regression analysis to analyze a data set of your own choosing.
 The data set may already exist or you may collect your own data by scraping the web.
@@ -26,7 +26,7 @@ The data set may already exist or you may collect your own data by scraping the 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
 The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a data set to analyze it in a meaningful way.
 
-All analyses must be done in RStudio, and all components of the project **must be reproducible** (with the exception of the presentation).
+All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the presentation).
 
 ### Logistics
 
@@ -39,7 +39,9 @@ The four primary deliverables for the final project are
 -   Slides + a video presentation
 -   Formal peer review on another team's project
 
-## Topic ideas {#topic-ideas}
+
+(topic-ideas)=
+## Topic ideas 
 
 Identify 2-3 data sets you're interested in potentially using for the final project.
 If you're unsure where to find data, you can use the list of potential data sources in the [Tips + Resources](#tips--resources) section as a starting point.
@@ -91,7 +93,8 @@ For each data set, include the following:
 Submit the PDF of the topic ideas to Gradescope.
 Mark all pages associated with each data set.
 
-## Project proposal {#project-proposal}
+(project-proposal)=
+## Project proposal
 
 The purpose of the project proposal is to help you think about your analysis strategy early.
 
@@ -153,13 +156,13 @@ Each component will be graded as follows:
 -   **Does not meet expectations (no credit)**: Major elements missing.
     Work is not neatly formatted and would not be presentable in a professional setting.
 
-## Draft report {#draft-report}
+(draft-report)=
+## Draft report 
 
 The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
 Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.
 
 Write the draft in the **written-report.qmd** file in your project repo.
-You do not need to submit the draft on Gradescope.
 
 Below is a brief description of the sections to focus on in the draft:
 
@@ -182,7 +185,8 @@ In this section, you will output the final model and include a brief discussion 
 
 This section also includes initial interpretations and conclusions drawn from the model.
 
-## Peer review {#peer-review}
+(peer-review)=
+## Peer review
 
 Critically reviewing others' work is a crucial part of the scientific process, and STA 210 is no exception.
 Each lab team will be assigned two other teams's projects to review.
@@ -262,7 +266,9 @@ Spend \~30 mins to review each team's project.
 
     -   (Optional) Any further comments or feedback?
 
-## Written report {#written-report}
+
+(written-report)=
+## Written report
 
 Your written report must be completed in the `written-report.qmd` file and must be reproducible.
 All team members should contribute to the GitHub repository, with regular meaningful commits.
@@ -363,6 +369,7 @@ If there is an appendix, it is reasonably organized and easy for the reader to f
 All code, warnings, and messages are suppressed.
 The main body of the written report (not including the appendix) is no longer than 10 pages.
 
+(video-presentation-slides)=
 ## Video presentation + slides
 
 ### Slides
@@ -416,7 +423,8 @@ Once your video is ready, upload the video to Warpwire, then embed the video in 
 -   Under the video, paste the URL to your video.
 -   You're done!
 
-## Presentation comments {#presentation-comments}
+(presentation-comments)=
+## Presentation comments 
 
 Each student will be assigned 2 presentations to watch.
 Your viewing assignments will be posted later in the semester.
@@ -456,6 +464,8 @@ Find your team name in the first column, watch videos from teams in the second c
 | We R                             | Chaa Chaa Chaa                   | Pineapple Wedge and Diced Papaya |
 | Eight                            | We R                             | Chaa Chaa Chaa                   |
 
+
+(reproducibility)=
 ## Reproducibility + organization
 
 All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized.
