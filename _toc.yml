@@ -4,10 +4,10 @@ parts:
   - caption: Course information
     chapters:
     - file: docs/course-syllabus.ipynb
-    sections:
-    - file: docs/course-overview.ipynb
-    - file: docs/course-links.ipynb
-    - file: docs/course-faq.ipynb
+      sections:
+      - file: docs/course-overview.ipynb
+      - file: docs/course-links.ipynb
+      - file: docs/course-faq.ipynb
   - caption: References
     chapters:
     - file: docs/reference.md
