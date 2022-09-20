@@ -3,22 +3,22 @@ root: docs/intro.md
 parts:
   - caption: Course information
     chapters:
-    - file: docs/course-syllabus.ipynb
+    - file: docs/course-syllabus.md
       sections:
-      - file: docs/course-overview.ipynb
-      - file: docs/course-links.ipynb
-      - file: docs/course-support.ipynb   
-      - file: docs/course-faq.ipynb
+      - file: docs/course-overview.md
+      - file: docs/course-links.md
+      - file: docs/course-support.md
+      - file: docs/course-faq.md
   - caption: Project
     chapters:
-    - file: docs/project-description.ipynb
+    - file: docs/project-description.md
       sections:
-      - file: docs/project-tips-resources.ipynb
+      - file: docs/project-tips-resources.md
   - caption: Weekly materials
     chapters:
-    - file: weeks/project-description.ipynb
+    - file: weeks/week-overview.md
       sections:
-      - file: weeks/week1.ipynb            
+      - file: weeks/week1.md   
   - caption: References
     chapters:
     - file: docs/reference.md
