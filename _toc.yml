@@ -2,11 +2,23 @@ format: jb-book
 root: docs/intro.md
 parts:
   - caption: Course information
+    chapters:
+    - file: docs/course-syllabus.ipynb
       sections:
-      - file: docs/course-syllabus.ipynb
       - file: docs/course-overview.ipynb
       - file: docs/course-links.ipynb
-      - file: docs/course-faq.ipynb   
+      - file: docs/course-support.ipynb   
+      - file: docs/course-faq.ipynb
+  - caption: Project
+    chapters:
+    - file: docs/project-description.ipynb
+      sections:
+      - file: docs/project-tips-resources.ipynb
+  - caption: Weekly materials
+    chapters:
+    - file: weeks/project-description.ipynb
+      sections:
+      - file: weeks/week1.ipynb            
   - caption: References
     chapters:
     - file: docs/reference.md
