@@ -1,0 +1,1209 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Schedule &#8212; Course template</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Course template</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Course information
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="course-syllabus.html">
+   Syllabus
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://colab.research.google.com/github/kirenz/course-template/blob/main/docs/schedule.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Colab"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../_static/images/logo_colab.png">
+  </span>
+<span class="headerbtn__text-container">Colab</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/kirenz/course-template"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/kirenz/course-template/issues/new?title=Issue%20on%20page%20%2Fdocs/schedule.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/docs/schedule.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Schedule</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="schedule">
+<h1>Schedule<a class="headerlink" href="#schedule" title="Permalink to this headline">#</a></h1>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:center head"><p>Week</p></th>
+<th class="head"><p>Date</p></th>
+<th class="head"><p>Topic</p></th>
+<th class="text-align:center head"><p>Prepare</p></th>
+<th class="text-align:center head"><p>Slides</p></th>
+<th class="text-align:center head"><p>AE</p></th>
+<th class="text-align:center head"><p>Lab</p></th>
+<th class="text-align:center head"><p>HW</p></th>
+<th class="text-align:center head"><p>Exam</p></th>
+<th class="text-align:center head"><p>Project</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">1</span></p></td>
+<td><p>Wed, Jan 5</p></td>
+<td><p>Lab 0 - Meet + greet</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lab 0 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 0 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Jan 6</p></td>
+<td><p>Welcome to STA 210!</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-1.html#prepare">📖</a>{aria-label=”Week 1 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 1 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 0 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">2</span></p></td>
+<td><p>Mon, Jan 10</p></td>
+<td><p>Lab 1 - Meet the toolkit</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lab 1 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 1 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Jan 11</p></td>
+<td><p>Simple linear regression (SLR)</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-2.html#prepare">📖</a>{aria-label=”Week 2 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 2 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Jan 13</p></td>
+<td><p>SLR: Model fitting in R with tidymodels</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 3 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 1 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Jan 14</p></td>
+<td><p>Released: HW 5</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 5 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Lab 1</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 1 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/lab-1-key.pdf">🗝️</a>{aria-label=”Lab 1 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">3</span></p></td>
+<td><p>Mon, Jan 17</p></td>
+<td><p><em>Martin Luther King, Jr. Day</em></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Jan 18</p></td>
+<td><p>SLR: Prediction + model evaluation</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-3.html#prepare">📖</a>{aria-label=”Week 3 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 4 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 2 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Jan 20</p></td>
+<td><p>SLR: Simulation-based inference</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 5 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Jan 21</p></td>
+<td><p>Released: HW 1</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 1 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">4</span></p></td>
+<td><p>Mon, Jan 24</p></td>
+<td><p>Lab 2 - College scorecard</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lab 2 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 2 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Jan 25</p></td>
+<td><p>SLR: Mathematical models for inference</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-4.html#prepare">📖</a>{aria-label=”Week 4 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 6 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Jan 27</p></td>
+<td><p>SLR: Model diagnostics</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 7 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 3 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Jan 28</p></td>
+<td><p>Due: HW 1 + Lab 2</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 2 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/lab-2-key.pdf">🗝️</a>{aria-label=”Lab 2 key”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 1 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/hw-1-key.pdf">🗝️</a>{aria-label=”HW 1 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">5</span></p></td>
+<td><p>Mon, Jan 31</p></td>
+<td><p>Lab 3 - Coffee ratings</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lab 3 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 3 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Feb 1</p></td>
+<td><p>Multiple linear regression (MLR)</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-5.html#prepare">📖</a>{aria-label=”Week 5 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 8 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Feb 3</p></td>
+<td><p>Exam 1 review</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 9 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 4 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Feb 4</p></td>
+<td><p>Released: Exam 1</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✅</span>{aria-label=”Exam 1 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Lab 3</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 3 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/lab-3-key.pdf">🗝️</a>{aria-label=”Lab 3 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">6</span></p></td>
+<td><p>Mon, Feb 7</p></td>
+<td><p>No lab: Work on Exam 1</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Exam 1</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✅</span>{aria-label=”Exam 1 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Feb 8</p></td>
+<td><p>MLR: Types of predictors</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-6.html#prepare">📖</a>{aria-label=”Week 6 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 10 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Feb 10</p></td>
+<td><p>MLR: Model comparison</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 11 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Feb 11</p></td>
+<td><p>Released: HW 2</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 2 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">7</span></p></td>
+<td><p>Mon, Feb 14</p></td>
+<td><p>Lab: <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#topic-ideas">Project topic ideas</a></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#topic-ideas">📂</a>{aria-label=”Project topic ideas”}</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Feb 15</p></td>
+<td><p>MLR: Feature engineering</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-7.html#prepare">📖</a>{aria-label=”Week 7 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 12 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 5 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Feb 17</p></td>
+<td><p>MLR: Feature engineering</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 13 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Feb 18</p></td>
+<td><p>Due: HW 2 + Project topic ideas</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 2 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/hw-2-key.pdf">🗝️</a>{aria-label=”HW 2 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#topic-ideas">📂</a>{aria-label=”Project topic ideas”}</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">8</span></p></td>
+<td><p>Mon, Feb 21</p></td>
+<td><p>Lab 4: The Office</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 4 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Feb 22</p></td>
+<td><p>MLR: Cross validation</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-8.html#prepare">📖</a>{aria-label=”Week 8 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 14 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 6 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Feb 24</p></td>
+<td><p>Exam 2 review</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 15 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 7 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Feb 25</p></td>
+<td><p>Released: Exam 2</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✅</span>{aria-label=”Exam 2 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Lab 4</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 4 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/lab-4-key.pdf">🗝️</a>{aria-label=”Lab 4 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">9</span></p></td>
+<td><p>Mon, Feb 28</p></td>
+<td><p>No lab: Work on Exam 2</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Exam 2</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✅</span>{aria-label=”Exam 2 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Mar 1</p></td>
+<td><p>MLR: Inference</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-9.html#prepare">📖</a>{aria-label=”Week 9 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 16 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 8 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Mar 3</p></td>
+<td><p>MLR: Inference conditions + multicollinearity</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 17 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Mon, Mar 7</p></td>
+<td><p><em>Spring break</em></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Mar 8</p></td>
+<td><p><em>Spring break</em></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Mar 10</p></td>
+<td><p><em>Spring break</em></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">10</span></p></td>
+<td><p>Mon, Mar 14</p></td>
+<td><p>Lab: Work on <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#project-proposal">project proposals</a></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#project-proposal">📂</a>{aria-label=”Project topic proposal”}</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Mar 15</p></td>
+<td><p>Logistic regression (LR)</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-10.html#prepare">📖</a>{aria-label=”Week 10 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 18 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 9 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Mar 17</p></td>
+<td><p>Probabilities, odds, and odds ratios</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 19 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Mar 18</p></td>
+<td><p>Due: Project proposals</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#project-proposal">📂</a>{aria-label=”Project topic proposal” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Released: HW 3</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 3 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">11</span></p></td>
+<td><p>Mon, Mar 21</p></td>
+<td><p>Lab 5: General Social Survey</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 5 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Mar 22</p></td>
+<td><p>LR: Prediction / classification</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-11.html#prepare">📖</a>{aria-label=”Week 11 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 20 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Mar 24</p></td>
+<td><p>LR: Model comparison</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 21 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 10 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Mar 25</p></td>
+<td><p>Due: HW 3 + Lab 5</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 5 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/lab-5-key.pdf">🗝️</a>{aria-label=”Lab 5 key”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 3 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/hw-3-key.pdf">🗝️</a>{aria-label=”HW 3 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">12</span></p></td>
+<td><p>Mon, Mar 28</p></td>
+<td><p>Lab: Work on <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#draft-report">project drafts</a></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#draft-report">📂</a>{aria-label=”Project draft report” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Mar 29</p></td>
+<td><p>LR: Inference + conditions</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-12.html#prepare">📖</a>{aria-label=”Week 12 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 22 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Mar 31</p></td>
+<td><p>Multinomial Logistic Regression (MultiLR)</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 23 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Apr 1</p></td>
+<td><p>Released: HW 4</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 4 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p><span class="xref myst">13</span></p></td>
+<td><p>Mon, Apr 4</p></td>
+<td><p>Lab 6: Why Many Americans Don’t Vote</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 6 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Apr 5</p></td>
+<td><p>MultiLR: Prediction + inferential models</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-13.html#prepare">📖</a>{aria-label=”Week 13 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 24 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Apr 7</p></td>
+<td><p>MultiLR: Predictive models</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 25 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 11 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Apr 8</p></td>
+<td><p>Due: Lab 6</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">💻</span>{aria-label=”Lab 6 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/lab-6-key.pdf">🗝️</a>{aria-label=”Lab 6 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Sun, Apr 10</p></td>
+<td><p>Due: Project drafts</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#draft-report">📂</a>{aria-label=”Project draft report” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">14</span></p></td>
+<td><p>Mon, Apr 11</p></td>
+<td><p>Lab: <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#peer-review">Project peer review of drafts</a></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#peer-review">📂</a>{aria-label=”Project peer review” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Apr 12</p></td>
+<td><p>MultiLR: Predictive models (cont.)</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-14.html#prepare">📖</a>{aria-label=”Week 14 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 26 slides”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: HW 4</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 4 instructions”} <a class="reference external" href="https://sakai.duke.edu/access/content/group/779c3ebe-3b88-4bcc-bd01-1813e8396a23/hw-4-key.pdf">🗝️</a>{aria-label=”HW 4 key”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Apr 14</p></td>
+<td><p>Exam 3 review</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 27 slides”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">📋</span>{aria-label=”Application Exercise 12 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Peer review</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#peer-review">📂</a>{aria-label=”Project peer review” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Fri, Apr 15</p></td>
+<td><p>Released: Exam 3</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✅</span>{aria-label=”Exam 3 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">15</span></p></td>
+<td><p>Mon, Apr 18</p></td>
+<td><p>No lab: Work on Exam 3</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: Exam 3</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✅</span>{aria-label=”Exam 3 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Tue, Apr 19</p></td>
+<td><p>Wrap-up</p></td>
+<td class="text-align:center"><p><a class="reference external" href="/weeks/week-15.html#prepare">📖</a>{aria-label=”Week 15 summary”}</p></td>
+<td class="text-align:center"><p><span class="xref myst">🖥️</span>{aria-label=”Lecture 28 slides”}</p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://github.com/sta210-s22/ae-13-tale-of-two-creeks">📋</a>{aria-label=”Application Exercise 13 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p></p></td>
+<td><p>Due: HW 5</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><span class="xref myst">✍️</span>{aria-label=”HW 5 instructions”}</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p><span class="xref myst">16</span></p></td>
+<td><p>Mon, Apr 25</p></td>
+<td><p>Due: <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#written-report">Project write-up</a></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#written-report">📂</a>{aria-label=”Project written report” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:center"><p></p></td>
+<td><p>Thu, Apr 28</p></td>
+<td><p>Due: <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#video-presentation-slides">Video presentation</a> + repo</p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#video-presentation-slides">📂</a>{aria-label=”Project video presentation and slides” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:center"><p></p></td>
+<td><p>Sat, Apr 30</p></td>
+<td><p>Due: <a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#presentation-comments">Video comments</a></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p></p></td>
+<td class="text-align:center"><p><a class="reference external" href="https://sta210-s22.github.io/website/project-description.html#presentation-comments">📂</a>{aria-label=”Project presentation comments” style=”text-decoration: underline; color: rgb(133, 153, 0) !important; cursor: text; font-family: “Lucida Grande”, serif; font-size: 16px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(0, 0, 0); background-color: rgb(245, 240, 222);”}</p></td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+```{r echo = FALSE}
+knitr::knit_exit()
+```
+
+|      |      |       | Prepare | Slides | AE  |                                                    Labs                                                    | HW  | Exam | Project |
+|--------|--------|--------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Week | Date | Topic |   📖    |   🖥️   | 📋  | [💻](https://sakai.duke.edu/samigo-app/servlet/Login?id=6fa7ebf3-01af-42a6-91ba-3e813d3901221641094171786) | ✍️  |  ✅  |   📂    |
+</pre></div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./docs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Jan Kirenz<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

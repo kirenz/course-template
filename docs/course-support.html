@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Course support &#8212; Course template</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Course template</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Course information
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="course-syllabus.html">
+   Syllabus
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://colab.research.google.com/github/kirenz/course-template/blob/main/docs/course-support.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Colab"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../_static/images/logo_colab.png">
+  </span>
+<span class="headerbtn__text-container">Colab</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/kirenz/course-template"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/kirenz/course-template/issues/new?title=Issue%20on%20page%20%2Fdocs/course-support.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/docs/course-support.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lectures-and-labs">
+   Lectures and labs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#office-hours">
+   Office hours
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion-forum">
+   Discussion forum
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#email">
+   Email
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#academic-support">
+   Academic support
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mental-health-and-wellness">
+   Mental health and wellness
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technology-accommodations">
+   <strong>
+    Technology accommodations
+   </strong>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#course-materials-costs">
+   <strong>
+    Course materials costs
+   </strong>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#assistance-with-zoom-or-sakai">
+   <strong>
+    Assistance with Zoom or Sakai
+   </strong>
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Course support</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#lectures-and-labs">
+   Lectures and labs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#office-hours">
+   Office hours
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion-forum">
+   Discussion forum
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#email">
+   Email
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#academic-support">
+   Academic support
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mental-health-and-wellness">
+   Mental health and wellness
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technology-accommodations">
+   <strong>
+    Technology accommodations
+   </strong>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#course-materials-costs">
+   <strong>
+    Course materials costs
+   </strong>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#assistance-with-zoom-or-sakai">
+   <strong>
+    Assistance with Zoom or Sakai
+   </strong>
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="course-support">
+<h1>Course support<a class="headerlink" href="#course-support" title="Permalink to this headline">#</a></h1>
+<p>Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.</p>
+<section id="lectures-and-labs">
+<h2>Lectures and labs<a class="headerlink" href="#lectures-and-labs" title="Permalink to this headline">#</a></h2>
+<p>If you have a question during lecture or lab, feel free to ask it!
+There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.</p>
+</section>
+<section id="office-hours">
+<h2>Office hours<a class="headerlink" href="#office-hours" title="Permalink to this headline">#</a></h2>
+<p>The teaching team is here to help you be successful in the course.
+You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments.
+A lot of questions are most effectively answered in-person, so office hours are a valuable resource.
+I encourage each and every one of you to take advantage of this resource!
+Make a pledge to stop by office hours at least once during the first three weeks of class.
+If you truly have no questions to ask, just stop by and say hi and introduce yourself.
+You can find a list of everyone’s office hours <span class="xref myst">here</span>.</p>
+</section>
+<section id="discussion-forum">
+<h2>Discussion forum<a class="headerlink" href="#discussion-forum" title="Permalink to this headline">#</a></h2>
+<p>Have a question that can’t wait for office hours?
+Prefer to write out your question in detail rather than asking in person?
+The online discussion forum is the best venue for these!
+We will use <a class="reference external" href="https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b">Conversations</a> as the online discussion forum.
+There is a chance another student has already asked a similar question, so please check the other posts on Ed Discussion before adding a new question.
+If you know the answer to a question that is posted, I encourage you to respond!</p>
+</section>
+<section id="email">
+<h2>Email<a class="headerlink" href="#email" title="Permalink to this headline">#</a></h2>
+<p>Please refrain from emailing any course content questions (those should go <a class="reference external" href="https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b">Conversations</a>), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).
+For such matters, you may email Dr. Mine Çetinkaya-Rundel at <a class="reference external" href="mailto:mc301&#37;&#52;&#48;duke&#46;edu">mc301<span>&#64;</span>duke<span>&#46;</span>edu</a>.</p>
+<p>If there is a question that’s not appropriate for the public forum, you are welcome to email me directly.
+<strong>If you email me, please include “STA 210” in the subject line.</strong> Barring extenuating circumstances, I will respond to STA 210 emails within 48 hours Monday - Friday.
+Response time may be slower for emails sent Friday evening - Sunday.</p>
+</section>
+<section id="academic-support">
+<h2>Academic support<a class="headerlink" href="#academic-support" title="Permalink to this headline">#</a></h2>
+<p>There are times you may need help with the class that is beyond what can be provided by the teaching team.
+In those instances, I encourage you to visit the <strong>Academic Resource Center</strong>.
+The <a class="reference external" href="https://arc.duke.edu">Academic Resource Center (ARC)</a> offers free services to all students during their undergraduate careers at Duke.
+Services include Learning Consultations, Peer Tutoring and Study Groups, ADHD/LD Coaching, Outreach Workshops, and more.
+Because learning is a process unique to every individual, they work with each student to discover and develop their own academic strategy for success at Duke.
+ARC services are available free to any Duke undergraduate student, in any year, studying in any discipline.
+Contact the ARC to schedule an appointment.
+Undergraduates in any year, studying any discipline can benefit!
+Contact <a class="reference external" href="mailto:theARC&#37;&#52;&#48;duke&#46;edu">theARC<span>&#64;</span>duke<span>&#46;</span>edu</a>, 919-684-5917.</p>
+</section>
+<section id="mental-health-and-wellness">
+<h2>Mental health and wellness<a class="headerlink" href="#mental-health-and-wellness" title="Permalink to this headline">#</a></h2>
+<p>Student mental health and wellness is of primary importance at Duke, and the university offers resources to support students in managing daily stress and self-care.
+Duke offers several resources for students to seek assistance on coursework and to nurture daily habits that support overall well-being, some of which are listed below:</p>
+<ul class="simple">
+<li><p><strong>The Academic Resource Center</strong>: (919) 684-5917, <a class="reference external" href="mailto:theARC&#37;&#52;&#48;duke&#46;edu">theARC<span>&#64;</span>duke<span>&#46;</span>edu</a>, or <a class="reference external" href="https://arc.duke.edu/">arc.duke.edu</a>,</p></li>
+<li><p><strong>DuWell</strong>: (919) 681-8421, <a class="reference external" href="mailto:duwell&#37;&#52;&#48;studentaffairs&#46;duke&#46;edu">duwell<span>&#64;</span>studentaffairs<span>&#46;</span>duke<span>&#46;</span>edu</a>, or <a class="reference external" href="https://studentaffairs.duke.edu/duwell">studentaffairs.duke.edu/duwell</a></p></li>
+</ul>
+<p>If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times.
+Duke encourages all students to access these resources.</p>
+<ul class="simple">
+<li><p><strong>DukeReach.</strong> Provides comprehensive outreach services to identify and support students in managing all aspects of well-being.
+If you have concerns about a student’s behavior or health visit the website for resources and assistance.
+<a class="reference external" href="http://studentaffairs.duke.edu/dukereach">studentaffairs.duke.edu/dukereach</a></p></li>
+<li><p><strong>Counseling and Psychological Services (CAPS).</strong> CAPS helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives.
+CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being.
+CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more.
+CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life.
+CAPS provides services to students via Telehealth.
+To initiate services, you can contact their front desk at 919-660-1000.
+<a class="reference external" href="https://studentaffairs.duke.edu/caps">studentaffairs.duke.edu/caps</a></p></li>
+<li><p><strong>Blue Devils Care.</strong> A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow and scheduled counseling.
+<a class="reference external" href="https://bluedevilscare.duke.edu/">bluedevilscare.duke.edu</a></p></li>
+<li><p><strong>Two-Click Support.</strong> Duke Student Government and DukeReach partnership that connects students to help in just two clicks.
+<a class="reference external" href="https://bit.ly/TwoClickSupport">bit.ly/TwoClickSupport</a></p></li>
+<li><p><strong>WellTrack</strong>.
+Sign up for WellTrack at <a class="reference external" href="https://app.welltrack.com/">app.welltrack.com</a>.</p></li>
+</ul>
+</section>
+<section id="technology-accommodations">
+<h2><strong>Technology accommodations</strong><a class="headerlink" href="#technology-accommodations" title="Permalink to this headline">#</a></h2>
+<p>Students with demonstrated high financial need who have limited access to computers may request assistance in the form of loaner laptops.
+For technology assistance requests, please go <a class="reference external" href="https://keeplearning.duke.edu/technical-support/">here</a>.
+Please note that supplies are limited.</p>
+<p>Note that we will be using Duke’s computational resources in this course.
+These resources are freely available to you.
+As long as your computer can connect to the internet and open a browser window, you can perform the necessary computing for this course.
+All software we use is open-source and/or freely available.</p>
+</section>
+<section id="course-materials-costs">
+<h2><strong>Course materials costs</strong><a class="headerlink" href="#course-materials-costs" title="Permalink to this headline">#</a></h2>
+<p>There are no costs associated with this course.
+All readings will come from freely available, open resources (open-source textbooks, journal articles, etc.).</p>
+</section>
+<section id="assistance-with-zoom-or-sakai">
+<h2><strong>Assistance with Zoom or Sakai</strong><a class="headerlink" href="#assistance-with-zoom-or-sakai" title="Permalink to this headline">#</a></h2>
+<p>For technical help with Sakai or Zoom, contact the Duke OIT Service Desk at <a class="reference external" href="https://oit.duke.edu/help">oit.duke.edu/help</a>.
+You can also access the self-service help documentation for Zoom <a class="reference external" href="https://oit.duke.edu/help/articles/kb0029318">here</a> and for Sakai <a class="reference external" href="https://sakai-duke.screenstepslive.com/s/sakai_support">here</a>.</p>
+<p>Note that we will be making minimal use of Sakai in this course (primarily for announcements and grade book).
+All assignment submission and discussion will take place on GitHub instead.</p>
+<p>Zoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./docs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Jan Kirenz<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
