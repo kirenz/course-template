@@ -1,6 +1,7 @@
 # Welcome
 
-The goal of this tutorial is to give you a first impression of some important tools and concepts in Python when doing data science or statistics projects. 
+Welcome to our course! This online book contains content and information for the semester. Note that the schedule will be updated as the semester progresses.
+
 
 A typical project looks something like this {cite:p}`Wickham2016`: 
 
@@ -14,9 +15,10 @@ A typical project looks something like this {cite:p}`Wickham2016`:
 
 ---
 
-This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
+*This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. The structure of this books is inspired by content provided by [Mine Çetinkaya-Rundel](https://mine-cr.com/).*
+
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" alt="Creative Commons License" style="border-width:0"/></a><br />
 
 
-This website is built with [Jupyter Book](https://jupyterbook.org/intro.html). <a target="_blank" href="https://icons8.de/icon/aL7NtSh6zELd/streudiagramm"> </a> Logo by <a target="_blank" href="https://icons8.de">Icons8</a>
+The website is built with [Jupyter Book](https://jupyterbook.org/intro.html). <a target="_blank" href="https://icons8.de/icon/aL7NtSh6zELd/streudiagramm"> </a> Logo by <a target="_blank" href="https://icons8.de">Icons8</a>
