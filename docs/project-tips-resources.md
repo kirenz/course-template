@@ -10,6 +10,13 @@ library(broom)
 
 ### Some resources that may be helpful as you find data:
 
+-   [Collection of Open Datasets](https://github.com/awesomedata/awesome-public-datasets)
+-   [Open Government Data (D-A-CH-LI)](https://www.govdata.de)
+-   [EU Open Data](https://data.europa.eu/euodp/en/home)
+-   [Statistisches Bundesamt](https://www-genesis.destatis.de/genesis/online/data)
+-   [Regionalstatistik](https://www.regionalstatistik.de/genesis/online/)
+-   [Germany Zensus2011](https://www.zensus2011.de/DE/Home/Aktuelles/DemografischeGrunddaten.html?nn=559100)
+-   [OECD](https://data.oecd.org)
 -   [World Health Organization](https://www.who.int/gho/database/en/)
 -   [The National Bureau of Economic Research](https://data.nber.org/data/)
 -   [International Monetary Fund](https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&sId=1479329328660)
