@@ -20,7 +20,7 @@
 
 **TL;DR**: *Pick a data set and perform an analysis. That is your final project.*
 
-The goal of the final project is for you to use regression analysis to analyze a data set of your own choosing.
+The goal of the final project is for you to use analytical methods to analyze a data set of your own choosing.
 The data set may already exist or you may collect your own data by scraping the web.
 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
@@ -44,11 +44,11 @@ The four primary deliverables for the final project are
 ## Topic ideas 
 
 Identify 2-3 data sets you're interested in potentially using for the final project.
-If you're unsure where to find data, you can use the list of potential data sources in the [Tips + Resources](#tips--resources) section as a starting point.
+If you're unsure where to find data, you can use the list of potential data sources in the [Tips + Resources](project-tips-resources.md) section as a starting point.
 It may also help to think of topics you're interested in investigating and find data sets on those topics.
 
 The purpose of submitting project ideas is to give you time to find data for the project and to make sure you have a data set that can help you be successful in the project.
-**Therefore, you must use one of the data sets submitted as a topic idea, unless otherwise notified by the teaching team.**
+**Therefore, you must use one of the data sets submitted as a topic idea, unless otherwise notified.**
 
 The data sets should meet the following criteria:
 
@@ -72,7 +72,7 @@ The data sets should meet the following criteria:
 
 -   You may not use data that has previously been used in any course materials, or any derivation of data that has been used in course materials.
 
-**Please ask a member of the teaching team if you're unsure whether your data set meets the criteria.**
+**Please ask me if you're unsure whether your data set meets the criteria.**
 
 For each data set, include the following:
 
@@ -86,12 +86,12 @@ For each data set, include the following:
 
 -   Describe a research question you're interested in answering using this data.
 
-#### Glimpse of data
+#### Overview of data
 
--   Use the `glimpse` function to provide an overview of each data set
+-   Use the Pandas functions to provide an overview of each data set
 
-Submit the PDF of the topic ideas to Gradescope.
-Mark all pages associated with each data set.
+Submit the PDF of the topic ideas to Moodle.
+
 
 (project-proposal)=
 ## Project proposal
@@ -125,7 +125,7 @@ This includes:
 -   Description of the response variable.
 -   Visualization and summary statistics for the response variable.
 -   List of variables that will be considered as predictors
--   Regression model technique (multiple linear regression and logistic regression)
+-   Your model technique (multiple linear regression and logistic regression)
 
 ### Data dictionary (aka code book)
 
@@ -134,7 +134,7 @@ Link to this file from your proposal writeup.
 
 ### Submission
 
-Push all of your final changes to the GitHub repo, and submit the PDF of your proposal to Gradescope.
+Push all of your final changes to the GitHub repo, and submit the PDF of your proposal to Moodle.
 
 ### Proposal grading
 
@@ -188,7 +188,7 @@ This section also includes initial interpretations and conclusions drawn from th
 (peer-review)=
 ## Peer review
 
-Critically reviewing others' work is a crucial part of the scientific process, and STA 210 is no exception.
+Critically reviewing others' work is a crucial part of the scientific process, and our course is no exception.
 Each lab team will be assigned two other teams's projects to review.
 Each team should push their draft to their GitHub repo by the due date.
 One lab in the following week will be dedicated to the peer review, and all reviews will be due by the end of that lab session.
@@ -203,38 +203,38 @@ The peer review will be graded on the extent to which it comprehensively and con
 
 | Team being reviewed | Reviewer 1     | Reviewer 2     |
 |---------------------|----------------|----------------|
-| chaa_chaa_chaa      | yay_stats      | stat_over_flow |
-| dekk                | chaa_chaa_chaa | yay_stats      |
-| eight               | dekk           | chaa_chaa_chaa |
-| housecats           | eight          | dekk           |
-| krafthouse          | housecats      | eight          |
-| rrawr               | krafthouse     | housecats      |
-| stat_over_flow      | rrawr          | krafthouse     |
-| yay_stats           | stat_over_flow | rrawr          |
+| x      | y      | z |
+| x                | y | z      |
+| x               | y           | z |
+| x           | y          | dekk           |
+| x          | y      | eight          |
+| x               | krafthouse     | z      |
+| x      | rrawr          | z     |
+| x           | stat_over_flow | z          |
 
 #### Section 2 - M 3:30PM - 4:45PM
 
 | Team being reviewed | Reviewer 1       | Reviewer 2       |
 |---------------------|------------------|------------------|
-| a_plus_plus_plus    | we_r             | tina             |
-| predictors          | a_plus_plus_plus | we_r             |
-| sixers              | predictors       | a_plus_plus_plus |
-| soy_nuggets         | sixers           | predictors       |
-| tina                | soy_nuggets      | sixers           |
-| we_r                | tina             | soy_nuggets      |
+| x    | y             | z             |
+| x          | y | z             |
+| x              | y       | z |
+| x         | y           | z       |
+| x                | y      | z           |
+| x                | y             | z      |
 
 #### Section 3 - M 5:15PM - 6:30PM
 
 | Team being reviewed              | Reviewer 1                       | Reviewer 2                       |
 |------------------------|------------------------|------------------------|
-| down_to_earth_goats              | the_three_musketeers             | team_five                        |
-| ginger_and_stats                 | down_to_earth_goats              | the_three_musketeers             |
-| pineapple_wedge_and_diced_papaya | ginger_and_stats                 | down_to_earth_goats              |
-| statchelorettes                  | pineapple_wedge_and_diced_papaya | ginger_and_stats                 |
-| statisix                         | statchelorettes                  | pineapple_wedge_and_diced_papaya |
-| stats_squad                      | statisix                         | statchelorettes                  |
-| team_five                        | stats_squad                      | statisix                         |
-| the_three_musketeers             | team_five                        | stats_squad                      |
+| x              | y             | z                        |
+| x                 | y              | z             |
+| x | y                 | z              |
+| x                  | y | z                 |
+| x                         | y                  | z |
+| x                      | y                         | z                  |
+| x                        | y                      | z                         |
+| x             | y                        | z                      |
 
 ### Process and questions
 
@@ -270,14 +270,13 @@ Spend \~30 mins to review each team's project.
 (written-report)=
 ## Written report
 
-Your written report must be completed in the `written-report.qmd` file and must be reproducible.
+Your written report must be completed in the `written-report.ipynb` file and must be reproducible.
 All team members should contribute to the GitHub repository, with regular meaningful commits.
 
-Before you finalize your write up, make sure the printing of code chunks is off with the option `echo = FALSE`.
 
-**You will submit the PDF of your final report on Gradescope.**
+**You will submit the HTML of your final report on Moodle.**
 
-The PDF you submit must match the files in your GitHub repository *exactly*.
+The HTML you submit must match the files in your GitHub repository *exactly*.
 The mandatory components of the report are below.
 You are free to add additional sections as necessary.
 The report, including visualizations, should be **no more than 10 pages long.** is no minimum page requirement; however, you should comprehensively address all of the analysis and report.
@@ -300,7 +299,9 @@ The written report is worth 40 points, broken down as follows
 | **Discussion + conclusion**   | 6 pts  |
 | **Organization + formatting** | 4 pts  |
 
+<!--
 [Click here](/documents/project-report-rubric.pdf "Project rubric") for a PDF of the written report rubric.
+-->
 
 ### Introduction and data
 
@@ -319,14 +320,14 @@ It incorporates appropriate visualizations and summary statistics.
 ### Methodology
 
 This section includes a brief description of your modeling process.
-Explain the reasoning for the type of model you're fitting, predictor variables considered for the model including any interactions.
-Additionally, show how you arrived at the final model by describing the model selection process, interactions considered, variable transformations (if needed), assessment of conditions and diagnostics, and any other relevant considerations that were part of the model fitting process.
+Explain the reasoning for the type of model you're fitting, predictor variables considered for the model.
+Additionally, show how you arrived at the final model by describing the model selection process, variable transformations (if needed), assessment of conditions and diagnostics, and any other relevant considerations that were part of the model fitting process.
 
 #### Grading criteria
 
 The analysis steps are appropriate for the data and research question.
 The group used a thorough and careful approach to select the final model; the approach is clearly described in the report.
-The model selection process took into account potential interaction effects and addressed any violations in model conditions.
+The model selection process took into account any violations in model conditions.
 The model conditions and diagnostics are thoroughly and accurately assessed for their model.
 If violations of model conditions are still present, there was a reasonable attempt to address the violations based on the course content.
 
@@ -374,14 +375,14 @@ The main body of the written report (not including the appendix) is no longer th
 
 ### Slides
 
-In addition to the written report, your team will also create presentation slides and record a video presentation that summarize and showcase your project.
+In addition to the written report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)) and record a video presentation that summarize and showcase your project.
 Introduce your research question and data set, showcase visualizations, and discuss the primary conclusions.
 These slides should serve as a brief visual addition to your written report and will be graded for content and quality.
 
-**For submission, convert these slides to a .pdf document, and submit the PDF of the slides on Gradescope.**
+**For submission, convert these slides to a .pdf document, and submit the PDF of the slides on Moodle.**
 
 The slide deck should have no more than 6 content slides + 1 title slide.
-Here is a *suggested* outline as you think through the slides; you [**do not**]{.underline} have to use this exact format for the 6 slides.
+Here is a *suggested* outline as you think through the slides; you **do not** have to use this exact format for the 6 slides.
 
 -   Title Slide
 -   Slide 1: Introduce the topic and motivation
@@ -393,9 +394,9 @@ Here is a *suggested* outline as you think through the slides; you [**do not**]{
 
 ### Video presentation
 
-For the video presentation, you can speak over your slide deck, similar to the lecture content videos.
+For the video presentation, you can speak over your slide deck.
 **The video presentation must be no longer than 8 minutes.** It is fine if the video is shorter than 8 minutes, but it cannot exceed 8 minutes.
-You may use can use any platform that works best for your group to record your presentation.
+You may use any platform that works best for your group to record your presentation.
 Below are a few resources on recording videos:
 
 -   [Recording presentations in Zoom](https://kb.siue.edu/61721)
@@ -405,7 +406,7 @@ Below are a few resources on recording videos:
 
 Once your video is ready, upload the video to Warpwire, then embed the video in an new discussion post on Conversations.
 
-#### To upload your video to Warpwire:
+#### To upload your video to Moodle:
 
 -   Click the Warpwire tab in the course Sakai site.
 -   Click the "+" and select "Upload files".
@@ -474,7 +475,7 @@ The GitHub repo should have the following structure:
 
 -   `README`: Short project description and data dictionary
 
--   `written-report.qmd` & `written-report.pdf`: Final written report
+-   `written-report.ipynb` & `written-report.pdf`: Final written report
 
 -   `/data`: Folder that contains the data set for the final project.
 
