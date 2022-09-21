@@ -1,16 +1,9 @@
 # Welcome
 
-Welcome to our course! This online book contains content and information for the semester. Note that the schedule will be updated as the semester progresses.
+Welcome to our course! 
 
+This online book contains content and information for the semester. Note that the course schedule will be updated as the semester progresses.
 
-A typical project looks something like this {cite:p}`Wickham2016`: 
-
-```{image} ../_static/img/data-science.png
-:alt: datascience
-:class: bg-primary mb-1
-:width: 600px
-:align: center
-```
 
 
 ---

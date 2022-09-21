@@ -7,23 +7,13 @@ Most of you will need help at some point and we want to make sure you can identi
 If you have a question during lecture or lab, feel free to ask it!
 There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 
-## Office hours
-
-The teaching team is here to help you be successful in the course.
-You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments.
-A lot of questions are most effectively answered in-person, so office hours are a valuable resource.
-I encourage each and every one of you to take advantage of this resource!
-Make a pledge to stop by office hours at least once during the first three weeks of class.
-If you truly have no questions to ask, just stop by and say hi and introduce yourself.
-You can find a list of everyone's office hours [here](/course-team.html).
 
 ## Discussion forum
 
-Have a question that can't wait for office hours?
 Prefer to write out your question in detail rather than asking in person?
 The online discussion forum is the best venue for these!
-We will use [Conversations](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b) as the online discussion forum.
-There is a chance another student has already asked a similar question, so please check the other posts on Ed Discussion before adding a new question.
+We will use [Moodle forum]() as the online discussion forum.
+There is a chance another student has already asked a similar question, so please check the other posts before adding a new question.
 If you know the answer to a question that is posted, I encourage you to respond!
 
 ## Email
