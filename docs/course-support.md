@@ -18,7 +18,7 @@ If you know the answer to a question that is posted, I encourage you to respond!
 
 ## Email
 
-Please refrain from emailing any course content questions (those should go to [Moodle](), and only use email for questions about personal matters that may not be appropriate for the public course forum. 
+Please refrain from emailing any course content questions (those should go to [Moodle]()), and only use email for questions about personal matters that may not be appropriate for the public course forum. 
 For such matters, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de).
 
 If there is a question that's not appropriate for the public forum, you are welcome to email me directly.
