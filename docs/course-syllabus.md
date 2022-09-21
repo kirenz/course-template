@@ -1,16 +1,14 @@
 
 # Course syllabus
 
-[**Click here**](/documents/sta210-s22-syllabus.pdf "PDF of syllabus") **to download a PDF copy of the syllabus.**
 
 ## Course info
 
 |           | Day       | Time              | Location                       |
 |-----------|-----------|-------------------|--------------------------------|
-| Lectures  | Tue & Thu | 1:45 pm - 3:00 pm | Reuben-Cooke Building 130      |
-| Section 1 | Mon       | 1:45 pm - 3:00 pm | Perkins LINK 087 (Classroom 3) |
-| Section 2 | Mon       | 3:30 pm - 4:45 pm | Old Chemistry 003              |
-| Section 3 | Mon       | 5:15 pm - 6:30 pm | Social Sciences 311            |
+| Lecture   | x         | x pm - x pm |  X  |
+| Lab       | x         | x pm - x pm |  X  |
+
 
 ## Learning objectives
 
@@ -22,50 +20,18 @@ By the end of the semester, you will be able to...
 -   use Quarto to write reproducible reports and GitHub for version control and collaboration.
 -   communicate results from statistical analyses to a general audience.
 
-## Community
-
-### Duke Community Standard
-
-As a student in this course, you have agreed to uphold the [Duke Community Standard](https://studentaffairs.duke.edu/conduct/about-us/duke-community-standard) as well as the practices specific to this course.
-
-```{=html}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_KN97j30ST4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-```
-### Inclusive community
-
-It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength, and benefit.
-It is my intent to present materials and activities that are respectful of diversity and in alignment with [Duke's Commitment to Diversity and Inclusion](https://provost.duke.edu/initiatives/commitment-to-diversity-and-inclusion).
-Your suggestions are encouraged and appreciated.
-Please let me know ways to improve the effectiveness of the course for you personally, or for other students or student groups.
-
-Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities.
-To help accomplish this:
-
--   If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. If you prefer to speak with someone outside of the course, your academic dean is an excellent resource.
--   I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please let me or a member of the teaching team know.
-
-### Accessibility
-
-If there is any portion of the course that is not accessible to you due to challenges with technology or the course format, please let me know so we can make appropriate accommodations.
-
-The [Student Disability Access Office (SDAO)](https://access.duke.edu/students) is available to ensure that students are able to engage with their courses and related assignments.
-Students should be in touch with the Student Disability Access Office to [request or update accommodations](https://access.duke.edu/requests) under these circumstances.
-
-### Communication
+## Communication
 
 All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website at [sta210-s22.github.io/website](https://sta210-s22.github.io/website).
 
-I will regularly send course announcements via email and Sakai, make sure to check one or the other of these regularly.
-If an announcement is sent Monday through Thursday, I will assume that you have read the announcement by the next day.
-If an announcement is sent on a Friday or over the weekend, I will assume that you have read it by Monday.
+I will regularly send course announcements via email, make sure to check one or the other of these regularly.
 
-### Where to get help
+
+## Where to get help
 
 -   If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
--   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on the course forum [Conversations](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b). There is a chance another student has already asked a similar question, so please check the other posts in Conversations before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!
--   Emails should be reserved for questions not appropriate for the public forum. **If you email me, please include "STA 210" in the subject line.** Barring extenuating circumstances, I will respond to STA 210 emails within 48 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.
+-   Outside of class, any general questions about course content or assignments should be posted on the [moodle course forum](). There is a chance another student has already asked a similar question, so please check the other posts in Conversations before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!
+-   Emails should be reserved for questions not appropriate for the public forum. **If you email me, please include the name of our course in the subject line.** 
 
 Check out the [Support](/course-support.html) page for more resources.
 
@@ -73,13 +39,10 @@ Check out the [Support](/course-support.html) page for more resources.
 
 While there is no official textbook for the course, we will be assigning readings from the following textbooks.
 
--   [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham
+- [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin
 
--   [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin
+- [Python for Data Analysis, 3E](https://wesmckinney.com/book/) by Wes McKinney
 
--   [Tidy modeling with R](https://www.tmwr.org/) by Max Kuhn and Julia Silge
-
--   [Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/) by Paul Roback and Julie Legler
 
 ## Lectures and labs
 
@@ -89,17 +52,15 @@ A lot of what you do in this course will involve writing code, and coding is a s
 Therefore, as much as possible, you will be working on a variety of tasks and activities throughout each lecture and lab.
 You are expected to attend all lecture and lab sessions and meaningfully contribute to in-class exercises and discussion.
 Additionally, some lectures will feature [application exercises] that will be graded.
-In addition to application exercises will be periodic activities help build a learning community.
-These will be short, fun activities that will help everyone in the class connect throughout the semester.
+
 
 You are expected to bring a laptop to each class so that you can take part in the in-class exercises.
 Please make sure your laptop is fully charged before you come to class as the number of outlets in the classroom will not be sufficient to accommodate everyone.
-More information on loaner laptops can be found [here](https://keeplearning.duke.edu/technical-support/).
 
 ## Teams
 
 You will be assigned to a team at the beginning of the semester.
-You are encouraged to sit with your teammates in lecture and you will also work with them in the lab sessions.
+
 All team members are expected to contribute equally to the completion of the labs and project and you will be asked to evaluate your team members throughout the semester.
 Failure to adequately contribute to an assignment will result in a penalty to your mark relative to the team's overall mark.
 
@@ -126,7 +87,7 @@ In labs, you will apply the concepts discussed in lecture to various data analys
 Most lab assignments will be completed in teams, and all team members are expected to contribute equally to the completion of each assignment.
 You are expected to use the team's GitHub repository on the course's GitHub organization as the central platform for collaboration.
 Commits to this repository will be used as a metric of each team member's relative contribution for each lab, and there will be periodic peer evaluation on the team collaboration.
-Lab assignments will be completed using Quarto, correspond to an appropriate GitHub repository, and submitted for grading in Gradescope.
+Lab assignments will be completed using Python, correspond to an appropriate GitHub repository, and submitted for grading in Moodle.
 
 *The lowest lab grade will be dropped at the end of the semester.*
 
@@ -134,7 +95,7 @@ Lab assignments will be completed using Quarto, correspond to an appropriate Git
 
 In homework, you will apply what you've learned during lecture and lab to complete data analysis tasks.
 You may discuss homework assignments with other students; however, homework should be completed and submitted individually.
-Similar to lab assignments, homework must be typed up using Quarto and GitHub and submitted as a PDF in Gradescope.
+Similar to lab assignments, homework must be completed with Python and GitHub and submitted in Moodle.
 
 One homework assignment will be dedicated to a *statistics experience*.
 The statistics experience is an opportunity to engage with statistics and data science outside of the classroom through podcasts, books, seminars, data analysis competitions, and other activities.
@@ -173,32 +134,31 @@ The final course grade will be calculated as follows:
 
 The final letter grade will be determined based on the following thresholds:
 
-| Letter Grade | Final Course Grade |
+|  Grade       | Final Course Grade |
 |--------------|--------------------|
-| A            | \>= 93             |
-| A-           | 90 - 92.99         |
-| B+           | 87 - 89.99         |
-| B            | 83 - 86.99         |
-| B-           | 80 - 82.99         |
-| C+           | 77 - 79.99         |
-| C            | 73 - 76.99         |
-| C-           | 70 - 72.99         |
-| D+           | 67 - 69.99         |
-| D            | 63 - 66.99         |
-| D-           | 60 - 62.99         |
-| F            | \< 60              |
+| 1.0           | 96 - 100           |
+| 1.3           | 91 - 95         |
+| 1.7           | 85 - 90         |
+| 2.0           | 80 - 84         |
+| 2.3           | 75 - 79         |
+| 2.7           | 70 - 74         |
+| 3.0           | 65 - 69         |
+| 3.3           | 60 - 64         |
+| 3.7           | 55 - 59         |
+| 4.0            | 50 - 54         |
+| 4.7           | 15 - 49         |
+| 5.0            | 0 - 14              |
 
-## Five tips for success
+## Tips for success
 
 Your success on this course depends very much on you and the effort you put into it.
 The course has been organized so that the burden of learning is on you.
 Your TAs and I will help you be providing you with materials and answering questions and setting a pace, but for this to work you must do the following:
 
 1.  Complete all the preparation work before class.
-2.  Ask questions. As often as you can. In class, out of class. Ask me, ask the TAs, ask your friends, ask the person sitting next to you. This will help you more than anything else. If you get a question wrong on an assessment, ask us why. If you're not sure about the homework, ask. If you hear something on the news that sounds related to what we discussed, ask. If the reading is confusing, ask.
-3.  Do the readings.
-4.  Do the homework and lab.The earlier you start, the better. It's not enough to just mechanically plow through the exercises. You should ask yourself how these exercises relate to earlier material, and imagine how they might be changed (to make questions for an exam, for example.)
-5.  Don't procrastinate. If something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, and eventually you won't know where to begin asking questions. Don't let the week end with unanswered questions. But if you find yourself falling behind and not knowing where to begin asking, come to office hours, and let me help you identify a good (re)starting point.
+1.  Do the readings.
+1.  Do the homework and lab.The earlier you start, the better. It's not enough to just mechanically plow through the exercises. You should ask yourself how these exercises relate to earlier material, and imagine how they might be changed (to make questions for an exam, for example.)
+1.  Don't procrastinate. If something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, and eventually you won't know where to begin asking questions. Don't let the week end with unanswered questions. 
 
 ## Course policies
 
@@ -206,20 +166,14 @@ Your TAs and I will help you be providing you with materials and answering quest
 
 **TL;DR: Don't cheat!**
 
-All students must adhere to the [Duke Community Standard (DCS)](https://trinity.duke.edu/undergraduate/academic-policies/community-standard-student-conduct): Duke University is a community dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, and accountability.
-Citizens of this community commit to reflect upon these principles in all academic and non-academic endeavors, and to protect and promote a culture of integrity.
-
-To uphold the Duke Community Standard:
-
-Students affirm their commitment to uphold the values of the Duke University community by signing a pledge that states:
+All students must adhere to the academic integrity standard. Students affirm their commitment to uphold the values of the HdM University if Applied Research community by signing a pledge that states:
 
 -   I will not lie, cheat, or steal in my academic endeavors;
 -   I will conduct myself honorably in all my endeavors;
 -   I will act if the Standard is compromised
 
-Regardless of course delivery format, it is your responsibility to understand and follow Duke policies regarding academic integrity, including doing one's own work, following proper citation of sources, and adhering to guidance around group work projects.
-Ignoring these requirements is a violation of the Duke Community Standard.
-If you have any questions about how to follow these requirements, please contact Jeanna McCullers ([jeanna.mccullers\@duke.edu](mailto:jeanna.mccullers@duke.edu)), Director of the Office of Student Conduct.
+Regardless of course delivery format, it is your responsibility to understand and follow HdM policies regarding academic integrity, including doing one's own work, following proper citation of sources, and adhering to guidance around group work projects.
+
 
 ### Collaboration policy
 
@@ -231,7 +185,7 @@ Only work that is clearly assigned as team work should be completed collaborativ
 ### Policy on sharing and reusing code
 
 I am well aware that a huge volume of code is available on the web to solve any number of problems.
-Unless I explicitly tell you not to use something, the course's policy is that you may make use of any online resources (e.g. RStudio Community, StackOverflow) but you must explicitly cite where you obtained any code you directly use (or use as inspiration).
+Unless I explicitly tell you not to use something, the course's policy is that you may make use of any online resources (e.g. StackOverflow) but you must explicitly cite where you obtained any code you directly use (or use as inspiration).
 Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.
 On individual assignments you may not directly share code with another student in this class, and on team assignments you may not directly share code with another team in this class.
 
@@ -252,27 +206,17 @@ Note that the lowest homework and lab assignment will be dropped to accommodate 
 
 ### Waiver for extenuating circumstances
 
-If there are circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email [Dr. Çetinkaya-Rundel](mailto:mc301@duke.edu) **and** our head TA [Rick Presman](mailto:rick.presman@duke.edu) before the deadline to waive the late penalty.
+If there are circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de) before the deadline to waive the late penalty.
+
 In your email, you only need to request the waiver; you do not need to provide explanation.
 This waiver may only be used for once in the semester, so only use it for a truly extenuating circumstance.
 
-If there are circumstances that are having a longer-term impact on your academic performance, please let your academic dean know, as they can be a resource.
-Please let Dr. Çetinkaya-Rundel know if you need help contacting your academic dean.
-
-### Regrade request policy
-
-Regrade requests must be submitted on Gradescope within a week of when an assignment is returned.
-Regrade requests will be considered if there was an error in the grade calculation or if you feel a correct answer was mistakenly marked as incorrect.
-Requests to dispute the number of points deducted for an incorrect response will not be considered.
-Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
-
-*No grades will be changed after the final project presentations.*
 
 ### Attendance policy
 
 Responsibility for class attendance rests with individual students.
 Since regular and punctual class attendance is expected, students must accept the consequences of failure to attend.
-More details on Trinity attendance policies are available [here](https://trinity.duke.edu/undergraduate/academic-policies/class-attendance-and-missed-work).
+
 
 However, there may be many reasons why you cannot be in class on a given day, particularly with possible extra personal and academic stress and health concerns this semester.
 All course lectures will be recorded and available to enrolled students after class.
@@ -288,44 +232,5 @@ Overall these policies are put in place to ensure communication between team mem
 Student health, safety, and well-being are the university's top priorities.
 To help ensure your well-being and the well-being of those around you, please do not come to class if you have symptoms related to COVID-19, have had a known exposure to COVID-19, or have tested positive for COVID-19.
 If any of these situations apply to you, you must follow university guidance related to the ongoing COVID-19 pandemic and current health and safety protocols.
-If you are experiencing any COVID-19 symptoms, contact student health at 919-681-9355.
-To keep the university community as safe and healthy as possible, you will be expected to follow these guidelines.
-Please reach out to me and your academic dean as soon as possible if you need to quarantine or isolate so that we can discuss arrangements for your continued participation in class.
 
-### Inclement weather policy
 
-In the event of inclement weather or other connectivity-related events that prohibit class attendance, I will notify you how we will make up missed course content and work.
-This might entail holding the class on Zoom synchronously or watching a recording of the class.
-
-### Policy on video recording course content
-
-All lectures will be recorded and available on [Panopto](https://duke.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22d6c1d58a-cb6d-4732-9d4b-ae0c011bf767%22), so students should not need to create their own recordings of lectures.
-If you feel that you need record the lectures yourself, you must get permission from me ahead of time and these recordings should be used for personal study only, no for distribution.
-The full policy on recording of lectures falls under the Duke University Policy on Intellectual Property Rights, available at [provost.duke.edu/sites/default/files/FHB_App_P.pdf](https://provost.duke.edu/sites/default/files/FHB_App_P.pdf).
-Unauthorized distribution is a cause for disciplinary action by the Judicial Board.
-
-## **Learning during a pandemic**
-
-I want to make sure that you learn everything you were hoping to learn from this class.
-If this requires flexibility, please don't hesitate to ask.
-
--   You *never* owe me personal information about your health (mental or physical) but you're always welcome to talk to me.
-    If I can't help, I likely know someone who can.
-
--   I want you to learn lots of things from this class, but I primarily want you to stay healthy, balanced, and grounded during this crisis.
-
-*Note:* If you've read this far in the syllabus, email me a picture of your pet if you have one or your favourite meme!
-
-## Important dates
-
--   **January 5:** Classes begin (Monday meeting schedule)
--   **January 6:** Regular class meeting schedule begins
--   **January 17:** Martin Luther King, Jr. Day holiday, no classes are held
--   **January 19:** Drop/add ends
--   **March 7-11:** Spring recess, no classes are held
--   **March 23**: Last day to withdraw with W
--   **April 20**: Classes end
--   **April 21-24**: Reading period
--   **April 25-30**: Final exams
-
-Click [here](https://registrar.duke.edu/spring-2022-academic-calendar) for the full Duke academic calendar.
