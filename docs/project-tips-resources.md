@@ -10,12 +10,6 @@ library(broom)
 
 ### Some resources that may be helpful as you find data:
 
--   [R Data Sources for Regression Analysis](https://rfun.library.duke.edu/blog/data-sources-for-regression-analysis/)
--   [FiveThirtyEight data](https://data.fivethirtyeight.com/)
--   [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
-
-### Other data repositories
-
 -   [World Health Organization](https://www.who.int/gho/database/en/)
 -   [The National Bureau of Economic Research](https://data.nber.org/data/)
 -   [International Monetary Fund](https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&sId=1479329328660)
@@ -37,11 +31,6 @@ library(broom)
 
 -   Ask questions if any of the expectations are unclear.
 
--   **Code:** In your write up your code should be hidden (`echo = FALSE`) so that your document is neat and easy to read.
-    However your document should include all your code such that if I re-knit your qmd file I should be able to obtain the results you presented.
-
-    -   **Exception:** If you want to highlight something specific about a piece of code, you're welcome to show that portion.
-
 -   Merge conflicts will happen, issues will arise, and that's fine!
     Commit and push often, and ask questions when stuck.
 
@@ -51,16 +40,6 @@ library(broom)
     While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in the assignment works.
 
 ## Formatting + communication tips
-
-### Suppress Code, Warnings, & Messages
-
--   Include the following code in a code chunk at the top of your .qmd file to suppress all code, warnings, and other messages. Use the code chunk header `{r set-up, include = FALSE}` to suppress this set up code.
-
-``` r
-knitr::opts_chunk$set(echo = FALSE,
-                      warning = FALSE, 
-                      message = FALSE)
-```
 
 ### Headers
 
@@ -82,14 +61,6 @@ knitr::opts_chunk$set(echo = FALSE,
 
 Resize plots and figures, so you have more space for the narrative.
 
-### Arranging plots
-
-Arrange plots in a grid, instead of one after the other.
-This is especially useful when displaying plots for exploratory data analysis and to check assumptions.
-
-If you're using ggplot2 functions, the `patchwork` package makes it easy to arrange plots in a grid.
-See the documentation and examples [here](https://patchwork.data-imaginist.com/).
-
 ### Plot titles and axis labels
 
 Be sure all plot titles and axis labels are visible and easy to read.
@@ -98,52 +69,18 @@ Be sure all plot titles and axis labels are visible and easy to read.
 
 ❌ **NO! The x-axis is hard to read because the names overlap.**
 
-```{r}
-ggplot(data = mpg, aes(x = manufacturer)) +
-  geom_bar()
-```
-
 ✅ **YES! Names are readable**
 
-```{r}
-ggplot(data = mpg, aes(y = manufacturer)) +
-  geom_bar()
-```
 
 ### Do a little more to make the plot look professional!
 
 -   Informative title and axis labels
 -   Flipped coordinates to make names readable
 -   Arranged bars based on count
--   Capitalized manufacturer names
+-   Capitalized names
 -   *Optional: Added color - Use a coordinated color scheme throughout paper / presentation*
 -   *Optional: Applied a theme - Use same theme throughout paper / presentation*
 
-```{r}
-mpg %>%
-  count(manufacturer) %>%
-  mutate(manufacturer = str_to_title(manufacturer)) %>%
-  ggplot(aes(y = fct_reorder(manufacturer,n), x = n)) +
-  geom_bar(stat = "identity", fill = "steelblue") +
-  labs(x = "Manufacturer", 
-       y = "Count", 
-       title = "The most common manufacturer is Dodge") +
-  theme_minimal() 
-```
-
-### Tables and model output
-
--   Use the `kable` function from the knitr package to neatly output all tables and model output.
-    This will also ensure all model coefficients are displayed.
-
-    -   Use the `digits` argument to display only 3 or 4 significant digits.
-    -   Use the `caption` argument to add captions to your table.
-
-```{r}
-model <- lm(mpg ~ hp, data = mtcars)
-tidy(model) %>%
-  kable(digits = 3)
-```
 
 ### Guidelines for communicating results
 
@@ -168,15 +105,3 @@ tidy(model) %>%
 -   **Use one voice:** Though multiple people are writing the report, it should read as if it's from a single author.
     At least one team member should read through the report before submission to ensure it reads like a cohesive document.
 
-## Additional resources
-
--   [R for Data Science](https://r4ds.had.co.nz/)
-
--   [Quarto Documentation](https://quarto.org/)
-
--   Data visualization
-
-    -   [ggplot2 Reference](https://ggplot2.tidyverse.org/reference/index.html)
-    -   [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
-    -   [Data Visualization: A Practice Introduction](https://socviz.co/index.html)
-    -   [Patchwork R Package](https://patchwork.data-imaginist.com/index.html)
