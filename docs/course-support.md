@@ -1,6 +1,6 @@
+(course-support)=
 # Course support
 
-Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.
 
 ## Lectures and labs
 
@@ -28,5 +28,3 @@ If there is a question that's not appropriate for the public forum, you are welc
 
 There are times you may need help with the class that is beyond what can be provided by the teaching team.
 In those instances, I encourage you to visit the [**Center for Learning and Development**](https://www.hdm-stuttgart.de/studierende/abteilungen/cld/angebote_studierende_studieninteressierte): it offers free services to all students. 
-
-Because learning is a process unique to every individual, they work with each student to discover and develop their own academic strategy for success at HdM.

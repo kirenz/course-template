@@ -22,18 +22,16 @@ By the end of the semester, you will be able to...
 
 ## Communication
 
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website at [sta210-s22.github.io/website](https://sta210-s22.github.io/website).
-
-I will regularly send course announcements via email, make sure to check one or the other of these regularly.
+All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website at [site](link).
 
 
 ## Where to get help
 
--   If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
--   Outside of class, any general questions about course content or assignments should be posted on the [moodle course forum](). There is a chance another student has already asked a similar question, so please check the other posts in Conversations before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!
+-   If you have a question during lecture or lab, feel free to ask it! 
+-   Outside of class, any general questions about course content or assignments should be posted on the [moodle course forum]().
 -   Emails should be reserved for questions not appropriate for the public forum. **If you email me, please include the name of our course in the subject line.** 
 
-Check out the [Support](/course-support.html) page for more resources.
+Check out the [Support](course-support.md) page for more resources.
 
 ## Textbooks
 
@@ -46,13 +44,12 @@ While there is no official textbook for the course, we will be assigning reading
 
 ## Lectures and labs
 
-The goal of both the lectures and the labs is for them to be as interactive as possible.
-My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them.
+The goal of both the lectures and the labs is for them to be as interactive as possible.My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them.
+
 A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing.
 Therefore, as much as possible, you will be working on a variety of tasks and activities throughout each lecture and lab.
 You are expected to attend all lecture and lab sessions and meaningfully contribute to in-class exercises and discussion.
 Additionally, some lectures will feature [application exercises] that will be graded.
-
 
 You are expected to bring a laptop to each class so that you can take part in the in-class exercises.
 Please make sure your laptop is fully charged before you come to class as the number of outlets in the classroom will not be sufficient to accommodate everyone.
@@ -69,18 +66,25 @@ Commits to this repository will be used as a metric (one of several) of each tea
 
 ## Assessment
 
-Assessment for the course is comprised of six components: application exercises, homework assignments, labs, exams, projects, and teamwork.
+Assessment for the course is comprised of six components: 
 
+- [application exercises](application-exercises), 
+- [labs](labs), 
+- [homework assignments](hw), 
+- [exams](exams), 
+- [projects](projects), and 
+- [teamwork](teamwork).
+
+(application-exercises)=
 ### Application exercises
 
-Parts of some lectures will be dedicated to working on Application Exercises (AEs).
-These exercises which give you an opportunity to practice apply the statistical concepts and code introduced in the readings and lectures.
-These AEs are due within three days of the corresponding lecture period.
-Specifically, AEs from Tuesday lectures are due Friday by 11:59 pm ET, and AEs from Thursday lectures are due Sunday by 11:59 pm ET.
+Parts of some lectures will be dedicated to working on "Application Exercises" (AEs).These exercises will give you an opportunity to practice apply the statistical concepts and code introduced in the readings and lectures. AEs should be completed and submitted individually.
 
-Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts.
-Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
+The AEs are due within **three days** of the corresponding lecture. For example, AEs from a Monday lecture would be due Thursday by 11:59 pm, and AEs from a Tuesday lecture would be due Friday by 11:59 pm ET.
 
+Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
+
+(labs)=
 ### Labs
 
 In labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.
@@ -91,18 +95,16 @@ Lab assignments will be completed using Python, correspond to an appropriate Git
 
 *The lowest lab grade will be dropped at the end of the semester.*
 
+(hw)=
 ### Homework
 
-In homework, you will apply what you've learned during lecture and lab to complete data analysis tasks.
+In homework, you will apply what you've learned during lectures to complete data analysis tasks.
 You may discuss homework assignments with other students; however, homework should be completed and submitted individually.
 Similar to lab assignments, homework must be completed with Python and GitHub and submitted in Moodle.
 
-One homework assignment will be dedicated to a *statistics experience*.
-The statistics experience is an opportunity to engage with statistics and data science outside of the classroom through podcasts, books, seminars, data analysis competitions, and other activities.
-As you complete these experiences, the goal is to consider how the material you're learning in the course connects with society more broadly.
-
 *The lowest homework grade will be dropped at the end of the semester.*
 
+(exams)=
 ### Exams
 
 There will be three, take-home, open-note exams.
@@ -111,6 +113,7 @@ The exams will focus on the conceptual understanding of the content, and they ma
 The content of the exam will be related to the content in the prepare, practice, and perform assignments.
 More detail about the exams will be given during the semester.
 
+(project)=
 ### Project
 
 The purpose of the [project](/project-description/) is to apply what you've learned throughout the semester to analyze an interesting, data-driven research question.
@@ -124,15 +127,15 @@ The final course grade will be calculated as follows:
 | Category              | Percentage      |
 |-----------------------|-----------------|
 | Application exercises | 3%              |
-| Homework              | 35% (7% x 5)    |
+| Homework              | 35% (5 x 7%)    |
 | Project               | 15%             |
-| Lab                   | 14% (2.33% x 6) |
+| Lab                   | 14% (6 x 2.33%) |
 | Exam 01               | 10%             |
 | Exam 02               | 10%             |
 | Exam 03               | 10%             |
 | Teamwork              | 3%              |
 
-The final letter grade will be determined based on the following thresholds:
+The final grade will be determined based on the following thresholds:
 
 |  Grade       | Final Course Grade |
 |--------------|--------------------|
@@ -151,13 +154,11 @@ The final letter grade will be determined based on the following thresholds:
 
 ## Tips for success
 
-Your success on this course depends very much on you and the effort you put into it.
-The course has been organized so that the burden of learning is on you.
-Your TAs and I will help you be providing you with materials and answering questions and setting a pace, but for this to work you must do the following:
+Your success on this course depends very much on you and the effort you put into it:
 
 1.  Complete all the preparation work before class.
 1.  Do the readings.
-1.  Do the homework and lab.The earlier you start, the better. It's not enough to just mechanically plow through the exercises. You should ask yourself how these exercises relate to earlier material, and imagine how they might be changed (to make questions for an exam, for example.)
+1.  Do the homework and lab. The earlier you start, the better. 
 1.  Don't procrastinate. If something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, and eventually you won't know where to begin asking questions. Don't let the week end with unanswered questions. 
 
 ## Course policies
@@ -191,46 +192,16 @@ On individual assignments you may not directly share code with another student i
 
 ### Late work policy
 
-The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner.
-We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.
-Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.
+The due dates for assignments are there to help you keep up with the course material. However, I understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Here are the rules for late submissions:
 
 -   Homework and labs may be submitted up to 3 days late.
-    There will be a 5% deduction for each 24-hour period the assignment is late.
+    There will be a 10% deduction for each 24-hour period the assignment is late.
 
 -   There is no late work accepted for application exercises, since these are designed to help you prepare for labs and homework.
 
--   The late work policy for exams will be provided with the exam instructions.
+-   There is no late work policy for exams (they need to be completed in a specific timeframe)
 
 -   The late work policy for the project will be provided with the project instructions.
 
-### Waiver for extenuating circumstances
-
-If there are circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de) before the deadline to waive the late penalty.
-
-In your email, you only need to request the waiver; you do not need to provide explanation.
-This waiver may only be used for once in the semester, so only use it for a truly extenuating circumstance.
-
-
-### Attendance policy
-
-Responsibility for class attendance rests with individual students.
-Since regular and punctual class attendance is expected, students must accept the consequences of failure to attend.
-
-
-However, there may be many reasons why you cannot be in class on a given day, particularly with possible extra personal and academic stress and health concerns this semester.
-All course lectures will be recorded and available to enrolled students after class.
-If you miss a lecture, make sure to watch the recording and review the material before the next class session.
-Lab time is dedicated to working on your lab assignments and collaborating with your teammates on your project.
-If you miss a lab session, make sure to communicate with your team about how you can make up your contribution.
-Given the technologies we use in the course, this is straightforward to do asynchronously.
-If you know you're going to miss a lab session and you're feeling well enough to do so, notify your teammates ahead of time.
-Overall these policies are put in place to ensure communication between team members, respect for each others' time, and also to give you a safety net in the case of illness or other reasons that keep you away from attending class.
-
-### Attendance policy related to COVID symptoms, exposure, or infection
-
-Student health, safety, and well-being are the university's top priorities.
-To help ensure your well-being and the well-being of those around you, please do not come to class if you have symptoms related to COVID-19, have had a known exposure to COVID-19, or have tested positive for COVID-19.
-If any of these situations apply to you, you must follow university guidance related to the ongoing COVID-19 pandemic and current health and safety protocols.
-
+If there are important circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de) before the deadline.
 

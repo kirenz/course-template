@@ -2,19 +2,19 @@
 
 ## Timeline
 
-[](topic-ideas) due Fri, Feb 18
+[](topic-ideas) due Fri, Oct 4
 
-[](project-proposal) due Fri, Mar 18
+[](project-proposal) due Fri, Nov 25
 
-[](draft-report) due Fri, Apr 8
+[](draft-report) due Fri, Dec 9
 
-[](peer-review) due Fri, Apr 15
+[](peer-review) due Fri, Dec 16
 
-[](written-report) due Mon, Apr 25
+[](written-report) due Fr, Feb 3 (2023)
 
-[](video-presentation-slides) and [final GitHub repo](reproducibility) due Thu, Apr 28
+[](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
 
-[Presentation comments](#presentation-comments) due Sat, Apr 30
+[Presentation comments](#presentation-comments) due We, Feb 15 (2023)
 
 ## Introduction
 
@@ -30,7 +30,7 @@ All analyses must be done in Python, and all components of the project **must be
 
 ### Logistics
 
-You will work on the project with your lab groups.
+You will work on the project with your team.
 
 The four primary deliverables for the final project are
 
@@ -162,7 +162,7 @@ Each component will be graded as follows:
 The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
 Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.
 
-Write the draft in the **written-report.qmd** file in your project repo.
+Write the draft in the **written-report.ipynb** file in your project repo.
 
 Below is a brief description of the sections to focus on in the draft:
 
@@ -244,6 +244,7 @@ Spend \~30 mins to review each team's project.
 -   For each of the columns, find the name of the team to review in the **Team being reviewed** column. You should already have access to this team's repo.
 -   Open the repo of the team you're reviewing, read their project draft, and browser around the rest of their repo.
 -   Then, go to the Issues tab in that repo, click on New issue, and click on Get started for the Peer review issue. Fill out this issue, answering the following questions:
+
     -   Peer review by: \[NAME OF TEAM DOING THE REVIEW\]
 
     -   Names of team members that participated in this review: \[FULL NAMES OF TEAM MEMBERS DOING THE REVIEW\]
@@ -404,25 +405,8 @@ Below are a few resources on recording videos:
 -   [Windows 10 built-in screen recording functionality](https://www.youtube.com/watch?v=OfPbr1mRDuo)
 -   [Kap for screen recording](https://getkap.co/)
 
-Once your video is ready, upload the video to Warpwire, then embed the video in an new discussion post on Conversations.
+Once your video is ready, upload the video to Moodle, then embed the video in an new discussion post on the Moodle Forum.
 
-#### To upload your video to Moodle:
-
--   Click the Warpwire tab in the course Sakai site.
--   Click the "+" and select "Upload files".
--   Locate the video on your computer and click to upload.
--   Once you've uploaded the video to Warpwire, click to share the video and copy the video's URL. You will need this when you post the video in the discussion forum.
-
-#### To post the video to the discussion forum
-
--   Click the Presentations tab in the course Sakai site.
--   Click the Presentations topic.
--   Click "Start a new conversation".
--   Make the title "Your Team Name: Project Title". For example, "Teaching Team: Our Awesome Presentation".
--   Click the Warpwire icon (between the table and shopping cart icons).
--   Select your video, then click "Insert 1 item." This will embed your video in the conversation.
--   Under the video, paste the URL to your video.
--   You're done!
 
 (presentation-comments)=
 ## Presentation comments 
