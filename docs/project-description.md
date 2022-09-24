@@ -18,7 +18,7 @@
 
 ## Introduction
 
-**TL;DR**: *Pick a data set and perform an analysis. That is your final project.*
+**TL;DR**: *Pick a data set and use the concepts and methods covered in our course. That is your final project.*
 
 The goal of the final project is for you to use analytical methods to analyze a data set of your own choosing.
 The data set may already exist or you may collect your own data by scraping the web.
@@ -26,7 +26,7 @@ The data set may already exist or you may collect your own data by scraping the 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
 The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a data set to analyze it in a meaningful way.
 
-All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the presentation).
+All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation).
 
 ### Logistics
 
@@ -90,7 +90,7 @@ For each data set, include the following:
 
 -   Use the Pandas functions to provide an overview of each data set
 
-Submit the PDF of the topic ideas to Moodle.
+Submit the HTML or PDF of the topic ideas to Moodle.
 
 
 (project-proposal)=
@@ -134,7 +134,7 @@ Link to this file from your proposal writeup.
 
 ### Submission
 
-Push all of your final changes to the GitHub repo, and submit the PDF of your proposal to Moodle.
+Push all of your final changes to the GitHub repo, and submit the HTML or PDF of your proposal to Moodle.
 
 ### Proposal grading
 
