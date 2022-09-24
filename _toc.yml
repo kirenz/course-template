@@ -4,17 +4,15 @@ parts:
   - caption: Course information
     chapters:
     - file: docs/course-overview.md
-      sections:
-      - file: docs/course-schedule.md
-      - file: docs/course-syllabus.md
-      - file: docs/course-links.md
-      - file: docs/course-support.md
-      - file: docs/course-faq.md
+    - file: docs/course-schedule.md
+    - file: docs/course-syllabus.md
+    - file: docs/course-links.md
+    - file: docs/course-support.md
+    - file: docs/course-faq.md
   - caption: Project
     chapters:
     - file: docs/project-description.md
-      sections:
-      - file: docs/project-tips-resources.md
+    - file: docs/project-tips-resources.md
   - caption: Weekly materials
     chapters:
     - file: weeks/week-overview.md
