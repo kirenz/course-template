@@ -317,9 +317,9 @@ The written report is worth 40 points, broken down as follows
 | **Discussion + conclusion**   | 6 pts  |
 | **Organization + formatting** | 4 pts  |
 
-<!--
-[Click here](/documents/project-report-rubric.pdf "Project rubric") for a PDF of the written report rubric.
--->
+
+[Click here](https://docs.google.com/spreadsheets/d/1gaLs43KiLSguhoHNIQlw5DcWPZfGyrLmjv7HTVQ3_uM/edit?usp=sharing) for an overview of the written report rubric.
+
 
 ### Introduction and data
 

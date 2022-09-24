@@ -1,14 +1,8 @@
 # Tips & resources
 
-```{r include = F}
-library(tidyverse)
-library(knitr)
-library(broom)
-```
-
 ## Data sources
 
-### Some resources that may be helpful as you find data:
+Some resources that may be helpful as you find data:
 
 -   [Collection of Open Datasets](https://github.com/awesomedata/awesome-public-datasets)
 -   [Open Government Data (D-A-CH-LI)](https://www.govdata.de)
@@ -38,8 +32,7 @@ library(broom)
 
 -   Ask questions if any of the expectations are unclear.
 
--   Merge conflicts will happen, issues will arise, and that's fine!
-    Commit and push often, and ask questions when stuck.
+-   GitHub merge conflicts will happen, issues will arise, and that's fine! Commit and push often, and ask questions when stuck.
 
 -   Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team members).
 
@@ -74,10 +67,6 @@ Be sure all plot titles and axis labels are visible and easy to read.
 
 -   Use informative titles, *not* variable names, for titles and axis labels.
 
-❌ **NO! The x-axis is hard to read because the names overlap.**
-
-✅ **YES! Names are readable**
-
 
 ### Do a little more to make the plot look professional!
 
@@ -96,7 +85,7 @@ Be sure all plot titles and axis labels are visible and easy to read.
     -   ❌ There is a negative linear relationship between mpg and hp.
     -   ✅ There is a negative linear relationship between a car's fuel economy (in miles per gallon) and its horsepower.
 
--   **Know your audience:** Your report should be written for a general audience who has an understanding of statistics at the level of STA 210.
+-   **Know your audience:** Your report should be written for a general audience who has an understanding of statistics at the level of our course.
 
 -   **Avoid subject matter jargon:** Don't assume the audience knows all of the specific terminology related to your subject area.
     If you must use jargon, include a brief definition the first time you introduce a term.
@@ -111,4 +100,3 @@ Be sure all plot titles and axis labels are visible and easy to read.
 
 -   **Use one voice:** Though multiple people are writing the report, it should read as if it's from a single author.
     At least one team member should read through the report before submission to ensure it reads like a cohesive document.
-
