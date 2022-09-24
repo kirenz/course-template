@@ -36,16 +36,6 @@ Text
 Text
 :::
 
+---
 
-::: {style="font-size: 0.875em;"}
-Back to [course schedule](/ "Course schedule") ⏎
-:::
-
-<!--
-```{image} ../_static/img/img.png
-:alt: text
-:class: bg-primary mb-1
-:width: 600px
-:align: center
-```
--->
+Back to [course schedule](docs/course-schedule.md) ⏎
