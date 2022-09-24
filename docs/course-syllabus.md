@@ -69,7 +69,9 @@ Commits to this repository will be used as a metric (one of several) of each tea
 Assessment for the course is comprised of six components: 
 
 - [application exercises](application-exercises), 
+<!--
 - [labs](labs), 
+-->
 - [homework assignments](hw), 
 - [exams](exams), 
 - [projects](projects), and 
@@ -84,6 +86,8 @@ The AEs are due within **three days** of the corresponding lecture. For example,
 
 Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
 
+<!--
+
 (labs)=
 ### Labs
 
@@ -95,6 +99,8 @@ Lab assignments will be completed using Python, correspond to an appropriate Git
 
 *The lowest lab grade will be dropped at the end of the semester.*
 
+-->
+
 (hw)=
 ### Homework
 
@@ -102,7 +108,6 @@ In homework, you will apply what you've learned during lectures to complete data
 You may discuss homework assignments with other students; however, homework should be completed and submitted individually.
 Similar to lab assignments, homework must be completed with Python and GitHub and submitted in Moodle.
 
-*The lowest homework grade will be dropped at the end of the semester.*
 
 (exams)=
 ### Exams
@@ -126,14 +131,12 @@ The final course grade will be calculated as follows:
 
 | Category              | Percentage      |
 |-----------------------|-----------------|
-| Application exercises | 3%              |
-| Homework              | 35% (5 x 7%)    |
-| Project               | 15%             |
-| Lab                   | 14% (6 x 2.33%) |
+| Application exercises | 10%              |
+| Homework              | 25% (5 x 5%)    |
+| Project               | 35%             |
 | Exam 01               | 10%             |
 | Exam 02               | 10%             |
 | Exam 03               | 10%             |
-| Teamwork              | 3%              |
 
 The final grade will be determined based on the following thresholds:
 
@@ -194,14 +197,14 @@ On individual assignments you may not directly share code with another student i
 
 The due dates for assignments are there to help you keep up with the course material. However, I understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Here are the rules for late submissions:
 
--   Homework and labs may be submitted up to 3 days late.
+-   Homeworks may be submitted up to 3 days late.
     There will be a 10% deduction for each 24-hour period the assignment is late.
 
--   There is no late work accepted for application exercises, since these are designed to help you prepare for labs and homework.
+-   There is no late work accepted for application exercises, since these are designed to help you prepare for homeworks.
 
 -   There is no late work policy for exams (they need to be completed in a specific timeframe)
 
--   The late work policy for the project will be provided with the project instructions.
+-   Projects may be submitted up to 3 days late. There will be a 20% deduction for each 24-hour period the project is late.
 
 If there are important circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de) before the deadline.
 
