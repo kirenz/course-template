@@ -4,8 +4,6 @@ Welcome to our course!
 
 This online book contains content and information for the semester. Note that the course schedule will be updated as the semester progresses.
 
-
-
 ---
 
 *This online work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>. The structure of this books is inspired by content provided by [Mine Çetinkaya-Rundel](https://mine-cr.com/).*

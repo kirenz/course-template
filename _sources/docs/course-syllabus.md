@@ -69,9 +69,6 @@ Commits to this repository will be used as a metric (one of several) of each tea
 Assessment for the course is comprised of six components: 
 
 - [application exercises](application-exercises), 
-<!--
-- [labs](labs), 
--->
 - [homework assignments](hw), 
 - [exams](exams), 
 - [projects](projects), and 
@@ -85,21 +82,6 @@ Parts of some lectures will be dedicated to working on "Application Exercises" (
 The AEs are due within **three days** of the corresponding lecture. For example, AEs from a Monday lecture would be due Thursday by 11:59 pm, and AEs from a Tuesday lecture would be due Friday by 11:59 pm ET.
 
 Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
-
-<!--
-
-(labs)=
-### Labs
-
-In labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.
-Most lab assignments will be completed in teams, and all team members are expected to contribute equally to the completion of each assignment.
-You are expected to use the team's GitHub repository on the course's GitHub organization as the central platform for collaboration.
-Commits to this repository will be used as a metric of each team member's relative contribution for each lab, and there will be periodic peer evaluation on the team collaboration.
-Lab assignments will be completed using Python, correspond to an appropriate GitHub repository, and submitted for grading in Moodle.
-
-*The lowest lab grade will be dropped at the end of the semester.*
-
--->
 
 (hw)=
 ### Homework
@@ -207,4 +189,3 @@ The due dates for assignments are there to help you keep up with the course mate
 -   Projects may be submitted up to 3 days late. There will be a 20% deduction for each 24-hour period the project is late.
 
 If there are important circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de) before the deadline.
-
