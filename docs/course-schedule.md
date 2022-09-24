@@ -5,4 +5,4 @@ This page contains an outline of the topics, content, and assignments for the se
 
 
 | Week | Date | Topic | Prepare | Slides | AE | HW | Exam | Project |
-| ---  | ---  | ---   | ---     | ---    | -- | ---| ---  | ---     |
+| ---  | ---  | ---   | ---     | ---    | --- | ---| ---  | ---     |
