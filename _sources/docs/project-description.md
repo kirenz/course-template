@@ -2,35 +2,37 @@
 
 ## Timeline
 
-[](topic-ideas) due Fri, Feb 18
+Please use the templates provided in your project GitHub-repo (see folder `references`) to create the following files: 
 
-[](project-proposal) due Fri, Mar 18
+- [](topic-ideas) due Fri, Oct 4
 
-[](draft-report) due Fri, Apr 8
+- [](project-proposal) due Fri, Nov 25
 
-[](peer-review) due Fri, Apr 15
+- [](draft-analysis) due Fri, Dec 9
 
-[](written-report) due Mon, Apr 25
+- [](peer-review) for draft analysis due Fri, Dec 16
 
-[](video-presentation-slides) and [final GitHub repo](reproducibility) due Thu, Apr 28
+- [](report) due Fr, Feb 3 (2023)
 
-[Presentation comments](#presentation-comments) due Sat, Apr 30
+- [](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
+
+- [Peer review for presentation](#presentation-comments) due We, Feb 15 (2023)
 
 ## Introduction
 
-**TL;DR**: *Pick a data set and perform an analysis. That is your final project.*
+**TL;DR**: *Pick a data set and use the concepts and methods covered in our course. That is your final project.*
 
 The goal of the final project is for you to use analytical methods to analyze a data set of your own choosing.
 The data set may already exist or you may collect your own data by scraping the web.
 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
-The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a data set to analyze it in a meaningful way.
+The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like) and apply them to a data set to analyze it in a meaningful way.
 
-All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the presentation).
+All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation).
 
 ### Logistics
 
-You will work on the project with your lab groups.
+You will work on the project with your team. Use the provided Github-repo for your project. 
 
 The four primary deliverables for the final project are
 
@@ -43,7 +45,7 @@ The four primary deliverables for the final project are
 (topic-ideas)=
 ## Topic ideas 
 
-Identify 2-3 data sets you're interested in potentially using for the final project.
+Identify 2 data sets you're interested in potentially using for the final project.
 If you're unsure where to find data, you can use the list of potential data sources in the [Tips + Resources](project-tips-resources.md) section as a starting point.
 It may also help to think of topics you're interested in investigating and find data sets on those topics.
 
@@ -90,7 +92,7 @@ For each data set, include the following:
 
 -   Use the Pandas functions to provide an overview of each data set
 
-Submit the PDF of the topic ideas to Moodle.
+Submit the HTML or PDF of the topic ideas to Moodle.
 
 
 (project-proposal)=
@@ -100,7 +102,7 @@ The purpose of the project proposal is to help you think about your analysis str
 
 Include the following in the proposal:
 
-### Section 1 - Introduction
+### Introduction
 
 The introduction section includes
 
@@ -109,7 +111,7 @@ The introduction section includes
 -   the general research question you wish to explore
 -   your hypotheses regarding the research question of interest.
 
-### Section 2 - Data description
+### Data description
 
 In this section, you will describe the data set you wish to explore.
 This includes
@@ -117,7 +119,7 @@ This includes
 -   description of the observations in the data set,
 -   description of how the data was originally collected (not how you found the data but how the original curator of the data collected it).
 
-### Section 3 - Analysis approach
+### Analysis approach
 
 In this section, you will provide a brief overview of your analysis approach.
 This includes:
@@ -125,16 +127,19 @@ This includes:
 -   Description of the response variable.
 -   Visualization and summary statistics for the response variable.
 -   List of variables that will be considered as predictors
--   Your model technique (multiple linear regression and logistic regression)
+-   Your model type (what kind of model(s) will you use ... e.g. linear regression)
 
-### Data dictionary (aka code book)
+### Data dictionary
 
-Submit a data dictionary for all the variables in your data set in the `README` of your project repo, in the `data` folder.
-Link to this file from your proposal writeup.
+Create a data dictionary for all the variables in your data set. Include the following information for every variable: Name, description, role, type and format.
+
+- `Role`: response, predictor, ID (ID columns are not used in a model but can help to better understand the data)
+- `Type`: nominal, ordinal or numeric
+- `Format`: int, float, string, category, date or object
 
 ### Submission
 
-Push all of your final changes to the GitHub repo, and submit the PDF of your proposal to Moodle.
+Push all of your final changes to the GitHub repo, and submit the HTML or PDF file of your proposal to Moodle.
 
 ### Proposal grading
 
@@ -156,130 +161,143 @@ Each component will be graded as follows:
 -   **Does not meet expectations (no credit)**: Major elements missing.
     Work is not neatly formatted and would not be presentable in a professional setting.
 
-(draft-report)=
-## Draft report 
+
+(draft-analysis)=
+## Draft analysis 
 
 The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
-Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.
+Therefore, the draft and peer review will focus primarily on the data preparation, exploratory data analysis, modeling, and initial interpretations.
 
-Write the draft in the **written-report.qmd** file in your project repo.
+The structure of the draft analysis is as follows:
 
-Below is a brief description of the sections to focus on in the draft:
+- Introduction
+- Setup
+- Data
+    - Import data
+    - Data structure
+    - Data corrections
+    - Variable lists
+    - Data splitting
+- Analysis
+- Model
+    - Select model
+    - Training and validation
+    - Fit model
+    - Evaluation on test set
+    - Save model
+- Conclusion
 
-### Introduction and data
+Below is a brief description of the sections to focus on in the draft. 
 
-This section includes an introduction to the project motivation, data, and research question.
-Describe the data and definitions of key variables.
-It should also include some exploratory data analysis.
-All of the EDA won't fit in the paper, so focus on the EDA for the response variable and a few other interesting variables and relationships.
+### Introduction
 
-### Methodology
+This section includes an introduction to the project motivation, a data dictionary and research question.
 
-This section includes a brief description of your modeling process.
-Explain the reasoning for the type of model you're fitting, predictor variables considered for the model including any interactions.
-Additionally, show how you arrived at the final model by describing the model selection process, any variable transformations (if needed), and any other relevant considerations that were part of the model fitting process.
 
-### Results
+### Setup
 
-In this section, you will output the final model and include a brief discussion of the model assumptions, diagnostics, and any relevant model fit statistics.
+Import all necessary Python libraries.
 
-This section also includes initial interpretations and conclusions drawn from the model.
+### Data
+
+Includes all data prepartion steps.
+
+
+### Analysis
+
+Focus on the descriptive statistics and EDA for the response variable and a few other interesting variables and relationships. 
+
+**Interpret the results.**
+
+
+### Model
+
+Explain the reasoning for the type of model you're fitting and predictor variables considered for the model.
+
+
+### Conclusion
+
+This section includes initial interpretations and conclusions drawn from the model.
+
 
 (peer-review)=
 ## Peer review
 
 Critically reviewing others' work is a crucial part of the scientific process, and our course is no exception.
-Each lab team will be assigned two other teams's projects to review.
+Each team will be assigned two other teams's projects to review.
 Each team should push their draft to their GitHub repo by the due date.
-One lab in the following week will be dedicated to the peer review, and all reviews will be due by the end of that lab session.
 
 During the peer review process, you will be provided read-only access to your partner teams' GitHub repos.
-Provide your review in the form of GitHub issues to your partner team's GitHub repo using the issue template provided.
+
+Provide your review in the form of [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) to your partner team's GitHub repo using the issue template provided.
 The peer review will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, modeling, interpretations, and conclusions.
-
-### Pairings
-
-#### Section 1 - M 1:45PM - 3:00PM
-
-| Team being reviewed | Reviewer 1     | Reviewer 2     |
-|---------------------|----------------|----------------|
-| x      | y      | z |
-| x                | y | z      |
-| x               | y           | z |
-| x           | y          | dekk           |
-| x          | y      | eight          |
-| x               | krafthouse     | z      |
-| x      | rrawr          | z     |
-| x           | stat_over_flow | z          |
-
-#### Section 2 - M 3:30PM - 4:45PM
-
-| Team being reviewed | Reviewer 1       | Reviewer 2       |
-|---------------------|------------------|------------------|
-| x    | y             | z             |
-| x          | y | z             |
-| x              | y       | z |
-| x         | y           | z       |
-| x                | y      | z           |
-| x                | y             | z      |
-
-#### Section 3 - M 5:15PM - 6:30PM
-
-| Team being reviewed              | Reviewer 1                       | Reviewer 2                       |
-|------------------------|------------------------|------------------------|
-| x              | y             | z                        |
-| x                 | y              | z             |
-| x | y                 | z              |
-| x                  | y | z                 |
-| x                         | y                  | z |
-| x                      | y                         | z                  |
-| x                        | y                      | z                         |
-| x             | y                        | z                      |
 
 ### Process and questions
 
 Spend \~30 mins to review each team's project.
 
--   Find your team name on the **Reviewer 1** and **Reviewer 2** columns.
--   For each of the columns, find the name of the team to review in the **Team being reviewed** column. You should already have access to this team's repo.
--   Open the repo of the team you're reviewing, read their project draft, and browser around the rest of their repo.
--   Then, go to the Issues tab in that repo, click on New issue, and click on Get started for the Peer review issue. Fill out this issue, answering the following questions:
-    -   Peer review by: \[NAME OF TEAM DOING THE REVIEW\]
+1. Find your team to review in Moodle. 
+2. Open the repo of the team you're reviewing, read their project draft, and browser around the rest of their repo.
+3. Then, go to the `Issues` tab in that repo, click on `New issue` and fill out the issue by answering the following questions (copy the following content and replace it with your feedback):
 
-    -   Names of team members that participated in this review: \[FULL NAMES OF TEAM MEMBERS DOING THE REVIEW\]
+Issue template:
 
-    -   Describe the goal of the project.
+```md
 
-    -   Describe the data used or collected, if any.
-        If the proposal does not include the use of a specific dataset, comment on whether the project would be strengthened by the inclusion of a dataset.
+### Peer review team
 
-    -   Describe the approaches, tools, and methods that will be used.
+- Peer review by: \[NAME OF TEAM DOING THE REVIEW\]
+- Names of team members that participated in this review: \[FULL NAMES OF TEAM MEMBERS DOING THE REVIEW\]
 
-    -   Is there anything that is unclear from the proposal?
+### Goal of the project
 
-    -   Provide constructive feedback on how the team might be able to improve their project.
-        Make sure your feedback includes at least one comment on the statistical modeling aspect of the project, but do feel free to comment on aspects beyond the modeling.
+- Describe the goal of the project.
 
-    -   What aspect of this project are you most interested in and would like to see highlighted in the presentation.
+### Data
 
-    -   Provide constructive feedback on any issues with file and/or code organization.
+- Describe the data used or collected, if any. Is the data adequate for the project?
 
-    -   (Optional) Any further comments or feedback?
+### Approach, tools and methods
+
+- Describe the approaches, tools, and methods that will be used.
+
+### Lack of clarity
+
+- Is there anything that is unclear from the proposal? 
+
+### Possible improvements
+
+- Provide constructive feedback on how the team might be able to improve their project.Make sure your feedback includes at least one comment on the modeling aspect of the project, but do feel free to comment on aspects beyond the modeling.
+
+### Presentation
+
+- What aspect of this project are you most interested in and would like to see highlighted in the final presentation?
+
+### Organization
+
+- Provide constructive feedback on any issues with file and/or code organization.
+
+### Further comments
+
+- (Optional) Any further comments or feedback?
+
+```
 
 
-(written-report)=
-## Written report
+If you are done, click on `Submit new issue`.
 
-Your written report must be completed in the `written-report.ipynb` file and must be reproducible.
+
+(report)=
+## Report
+
+Your final report must be completed in the `report.ipynb` file (see folder `reports/`) and must be reproducible. Assume that it will be used to communicate your results to other data analysts who are interested in your findings.
+
 All team members should contribute to the GitHub repository, with regular meaningful commits.
 
+**You also need to submit the HTML of your final report on Moodle** (the HTML you submit must match the files in your GitHub repository *exactly*).
 
-**You will submit the HTML of your final report on Moodle.**
-
-The HTML you submit must match the files in your GitHub repository *exactly*.
-The mandatory components of the report are below.
-You are free to add additional sections as necessary.
-The report, including visualizations, should be **no more than 10 pages long.** is no minimum page requirement; however, you should comprehensively address all of the analysis and report.
+The mandatory components of the report are below. You are free to add additional sections as necessary.
+The report, including visualizations, should be **no more than 10 pages long.** There is no minimum page requirement; however, you should comprehensively address all of the analysis and report.
 
 Be selective in what you include in your final write-up.
 The goal is to write a cohesive narrative that demonstrates a thorough and comprehensive analysis rather than explain every step of the analysis.
@@ -375,11 +393,12 @@ The main body of the written report (not including the appendix) is no longer th
 
 ### Slides
 
-In addition to the written report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)) and record a video presentation that summarize and showcase your project.
-Introduce your research question and data set, showcase visualizations, and discuss the primary conclusions.
-These slides should serve as a brief visual addition to your written report and will be graded for content and quality.
+In addition to the written report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)). Additionaly, you have to record a screencast that summarize and showcase your project (see info [below](video-presentation)).
 
-**For submission, convert these slides to a .pdf document, and submit the PDF of the slides on Moodle.**
+Introduce your research question and data set, showcase visualizations, and discuss the primary conclusions.
+These slides should serve as a brief visual addition to your report and will be graded for content and quality.
+
+**For submission, convert these slides to a .pdf document, and submit the file on Moodle.**
 
 The slide deck should have no more than 6 content slides + 1 title slide.
 Here is a *suggested* outline as you think through the slides; you **do not** have to use this exact format for the 6 slides.
@@ -392,9 +411,10 @@ Here is a *suggested* outline as you think through the slides; you **do not** ha
 -   Slide 5: Interesting findings from the model
 -   Slide 6: Conclusions + future work
 
+(video-presentation)=
 ### Video presentation
 
-For the video presentation, you can speak over your slide deck.
+For the video presentation (i.e., screencast), you can speak over your slide deck.
 **The video presentation must be no longer than 8 minutes.** It is fine if the video is shorter than 8 minutes, but it cannot exceed 8 minutes.
 You may use any platform that works best for your group to record your presentation.
 Below are a few resources on recording videos:
@@ -404,31 +424,13 @@ Below are a few resources on recording videos:
 -   [Windows 10 built-in screen recording functionality](https://www.youtube.com/watch?v=OfPbr1mRDuo)
 -   [Kap for screen recording](https://getkap.co/)
 
-Once your video is ready, upload the video to Warpwire, then embed the video in an new discussion post on Conversations.
+Once your video is ready, upload the video to Moodle.
 
-#### To upload your video to Moodle:
-
--   Click the Warpwire tab in the course Sakai site.
--   Click the "+" and select "Upload files".
--   Locate the video on your computer and click to upload.
--   Once you've uploaded the video to Warpwire, click to share the video and copy the video's URL. You will need this when you post the video in the discussion forum.
-
-#### To post the video to the discussion forum
-
--   Click the Presentations tab in the course Sakai site.
--   Click the Presentations topic.
--   Click "Start a new conversation".
--   Make the title "Your Team Name: Project Title". For example, "Teaching Team: Our Awesome Presentation".
--   Click the Warpwire icon (between the table and shopping cart icons).
--   Select your video, then click "Insert 1 item." This will embed your video in the conversation.
--   Under the video, paste the URL to your video.
--   You're done!
 
 (presentation-comments)=
 ## Presentation comments 
 
-Each student will be assigned 2 presentations to watch.
-Your viewing assignments will be posted later in the semester.
+Each student will be assigned 2 presentations to watch (your viewing assignments will be posted later in the semester)
 
 Watch the group's video, then click "Reply" to post a question for the group.
 You may not post a question that's already been asked on the discussion thread.
@@ -436,61 +438,24 @@ Additionally, the question should be (i) substantive (i.e. it shouldn't be "Why 
 
 *This portion of the project will be assessed individually.*
 
-### Pairings
-
-Find your team name in the first column, watch videos from teams in the second column and leave comments.
-
-| Reviewer                         | First video to review            | Second video to review           |
-|:-----------------------|:-----------------------|:-----------------------|
-| Ginger and Stats                 | Eight                            | We R                             |
-| Krafthouse                       | Ginger and Stats                 | Eight                            |
-| Soy Nuggets                      | Krafthouse                       | Ginger and Stats                 |
-| Down To Earth Goats              | Soy Nuggets                      | Krafthouse                       |
-| A+++                             | Down To Earth Goats              | Soy Nuggets                      |
-| Team Five                        | A+++                             | Down To Earth Goats              |
-| Rrawr                            | Team Five                        | A+++                             |
-| Housecats                        | Rrawr                            | Team Five                        |
-| Dekk                             | Housecats                        | Rrawr                            |
-| Stat OverFlow                    | Dekk                             | Housecats                        |
-| The Three Musketeers             | Stat OverFlow                    | Dekk                             |
-| Predictors                       | The Three Musketeers             | Stat OverFlow                    |
-| Stats Squad                      | Predictors                       | The Three Musketeers             |
-| Statisix                         | Stats Squad                      | Predictors                       |
-| Sixers                           | Statisix                         | Stats Squad                      |
-| Yay Stats                        | Sixers                           | Statisix                         |
-| TINA                             | Yay Stats                        | Sixers                           |
-| Statchelorettes                  | TINA                             | Yay Stats                        |
-| Pineapple Wedge and Diced Papaya | Statchelorettes                  | TINA                             |
-| Chaa Chaa Chaa                   | Pineapple Wedge and Diced Papaya | Statchelorettes                  |
-| We R                             | Chaa Chaa Chaa                   | Pineapple Wedge and Diced Papaya |
-| Eight                            | We R                             | Chaa Chaa Chaa                   |
-
 
 (reproducibility)=
 ## Reproducibility + organization
 
 All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized.
 
-The GitHub repo should have the following structure:
+You will find an overview of the GitHib structure in the README.md file of the GitHub repo (the project structure is based on DrivenData's [Cookiecutter Data Science-Template](https://drivendata.github.io/cookiecutter-data-science/).
 
--   `README`: Short project description and data dictionary
-
--   `written-report.ipynb` & `written-report.pdf`: Final written report
-
--   `/data`: Folder that contains the data set for the final project.
-
--   `/previous-work`: Folder that contains the `topic-ideas` and `project-proposal` files.
-
--   `/presentation`: Folder with the presentation slides.
-
-    -   If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `presentation` folder.
+If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `reports/` folder.
 
 Points for reproducibility + organization will be based on the reproducibility of the written report and the organization of the project GitHub repo.
+
 The repo should be neatly organized as described above, there should be no extraneous files, all text in the README should be easily readable.
 
 ## Peer teamwork evaluation
 
 You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member.
+
 Filling out the survey is a prerequisite for getting credit on the team member evaluation.
 If you are suggesting that an individual did less than half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please provide some explanation.
 If any individual gets an average peer score indicating that this was the case, their grade will be assessed accordingly.
@@ -508,7 +473,7 @@ The grade breakdown is as follows:
 | **Topic ideas**                    | 5 pts   |
 | **Project proposal**               | 10 pts  |
 | **Peer review**                    | 10 pts  |
-| **Written report**                 | 40 pts  |
+| **Report**                         | 40 pts  |
 | **Slides + video presentation**    | 20 pts  |
 | **Reproducibility + organization** | 5 pts   |
 | **Video comments**                 | 5 pts   |
@@ -520,7 +485,7 @@ The grade breakdown is as follows:
 
 Grading of the project will take into account the following:
 
--   Content - What is the quality of research and/or policy question and relevancy of data to those questions?
+-   Content - What is the quality of the research question and relevancy of data to those questions?
 -   Correctness - Are statistical procedures carried out and explained correctly?
 -   Writing and Presentation - What is the quality of the statistical presentation, writing, and explanations?
 -   Creativity and Critical Thought - Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?
