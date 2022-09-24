@@ -184,7 +184,7 @@ The structure of the draft report is as follows:
     - Training and validation
     - Fit model
     - Evaluation on test set
-- Results
+- Conclusion
 
 Below is a brief description of the sections to focus on in the draft. 
 
@@ -204,7 +204,9 @@ Includes all data prepartion steps.
 
 ### Analysis
 
-Focus on the descriptive statistics and EDA for the response variable and a few other interesting variables and relationships.
+Focus on the descriptive statistics and EDA for the response variable and a few other interesting variables and relationships. 
+
+**Interpret the results.**
 
 
 ### Model
@@ -212,7 +214,7 @@ Focus on the descriptive statistics and EDA for the response variable and a few 
 Explain the reasoning for the type of model you're fitting and predictor variables considered for the model.
 
 
-### Results
+### Conclusion
 
 This section includes initial interpretations and conclusions drawn from the model.
 
@@ -225,93 +227,76 @@ Each team will be assigned two other teams's projects to review.
 Each team should push their draft to their GitHub repo by the due date.
 
 During the peer review process, you will be provided read-only access to your partner teams' GitHub repos.
-Provide your review in the form of GitHub issues to your partner team's GitHub repo using the issue template provided.
+
+Provide your review in the form of [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) to your partner team's GitHub repo using the issue template provided.
 The peer review will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, modeling, interpretations, and conclusions.
-
-### Pairings
-
-#### Section 1 - M 1:45PM - 3:00PM
-
-| Team being reviewed | Reviewer 1     | Reviewer 2     |
-|---------------------|----------------|----------------|
-| x      | y      | z |
-| x                | y | z      |
-| x               | y           | z |
-| x           | y          | dekk           |
-| x          | y      | eight          |
-| x               | krafthouse     | z      |
-| x      | rrawr          | z     |
-| x           | stat_over_flow | z          |
-
-#### Section 2 - M 3:30PM - 4:45PM
-
-| Team being reviewed | Reviewer 1       | Reviewer 2       |
-|---------------------|------------------|------------------|
-| x    | y             | z             |
-| x          | y | z             |
-| x              | y       | z |
-| x         | y           | z       |
-| x                | y      | z           |
-| x                | y             | z      |
-
-#### Section 3 - M 5:15PM - 6:30PM
-
-| Team being reviewed              | Reviewer 1                       | Reviewer 2                       |
-|------------------------|------------------------|------------------------|
-| x              | y             | z                        |
-| x                 | y              | z             |
-| x | y                 | z              |
-| x                  | y | z                 |
-| x                         | y                  | z |
-| x                      | y                         | z                  |
-| x                        | y                      | z                         |
-| x             | y                        | z                      |
 
 ### Process and questions
 
 Spend \~30 mins to review each team's project.
 
--   Find your team name on the **Reviewer 1** and **Reviewer 2** columns.
--   For each of the columns, find the name of the team to review in the **Team being reviewed** column. You should already have access to this team's repo.
--   Open the repo of the team you're reviewing, read their project draft, and browser around the rest of their repo.
--   Then, go to the Issues tab in that repo, click on New issue, and click on Get started for the Peer review issue. Fill out this issue, answering the following questions:
+1. Find your team to review in Moodle. 
+2. Open the repo of the team you're reviewing, read their project draft, and browser around the rest of their repo.
+3. Then, go to the `Issues` tab in that repo, click on `New issue` and fill out the issue by answering the following questions (copy the following content and replace it with your feedback):
 
-    -   Peer review by: \[NAME OF TEAM DOING THE REVIEW\]
+Issue template:
 
-    -   Names of team members that participated in this review: \[FULL NAMES OF TEAM MEMBERS DOING THE REVIEW\]
+```md
 
-    -   Describe the goal of the project.
+### Peer review team
 
-    -   Describe the data used or collected, if any.
-        If the proposal does not include the use of a specific dataset, comment on whether the project would be strengthened by the inclusion of a dataset.
+- Peer review by: \[NAME OF TEAM DOING THE REVIEW\]
+- Names of team members that participated in this review: \[FULL NAMES OF TEAM MEMBERS DOING THE REVIEW\]
 
-    -   Describe the approaches, tools, and methods that will be used.
+### Goal of the project
 
-    -   Is there anything that is unclear from the proposal?
+- Describe the goal of the project.
 
-    -   Provide constructive feedback on how the team might be able to improve their project.
-        Make sure your feedback includes at least one comment on the statistical modeling aspect of the project, but do feel free to comment on aspects beyond the modeling.
+### Data
 
-    -   What aspect of this project are you most interested in and would like to see highlighted in the presentation.
+- Describe the data used or collected, if any. Is the data adequate for the project?
 
-    -   Provide constructive feedback on any issues with file and/or code organization.
+### Approach, tools and methods
 
-    -   (Optional) Any further comments or feedback?
+- Describe the approaches, tools, and methods that will be used.
+
+### Lack of clarity
+
+- Is there anything that is unclear from the proposal? 
+
+### Possible improvements
+
+- Provide constructive feedback on how the team might be able to improve their project.Make sure your feedback includes at least one comment on the modeling aspect of the project, but do feel free to comment on aspects beyond the modeling.
+
+### Presentation
+
+- What aspect of this project are you most interested in and would like to see highlighted in the final presentation?
+
+### Organization
+
+- Provide constructive feedback on any issues with file and/or code organization.
+
+### Further comments
+
+- (Optional) Any further comments or feedback?
+
+```
+
+
+If you are done, click on `Submit new issue`.
 
 
 (written-report)=
 ## Written report
 
-Your written report must be completed in the `written-report.ipynb` file and must be reproducible.
+Your written report must be completed in the `written-report.ipynb` file (see folder `references/written-report/`) and must be reproducible. Assume that it will be used to communicate your results to other data analysts who are interested in your findings.
+
 All team members should contribute to the GitHub repository, with regular meaningful commits.
 
+**You also need to submit the HTML of your final report on Moodle** (the HTML you submit must match the files in your GitHub repository *exactly*).
 
-**You will submit the HTML of your final report on Moodle.**
-
-The HTML you submit must match the files in your GitHub repository *exactly*.
-The mandatory components of the report are below.
-You are free to add additional sections as necessary.
-The report, including visualizations, should be **no more than 10 pages long.** is no minimum page requirement; however, you should comprehensively address all of the analysis and report.
+The mandatory components of the report are below. You are free to add additional sections as necessary.
+The report, including visualizations, should be **no more than 10 pages long.** There is no minimum page requirement; however, you should comprehensively address all of the analysis and report.
 
 Be selective in what you include in your final write-up.
 The goal is to write a cohesive narrative that demonstrates a thorough and comprehensive analysis rather than explain every step of the analysis.
