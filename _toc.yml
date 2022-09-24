@@ -15,7 +15,7 @@ parts:
     - file: docs/project-tips-resources.md
   - caption: Weekly materials
     chapters:
-    - file: weeks/week-overview.md
+    - file: weeks/weeks-overview.md
       sections:
       - file: weeks/week1.md   
   - caption: References
