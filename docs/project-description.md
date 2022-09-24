@@ -2,6 +2,8 @@
 
 ## Timeline
 
+Please use the templates provided in your project GitHub-repo (see folder `references`) to create the following files: 
+
 - [](topic-ideas) due Fri, Oct 4
 
 - [](project-proposal) due Fri, Nov 25
@@ -30,7 +32,7 @@ All analyses must be done in Python, and all components of the project **must be
 
 ### Logistics
 
-You will work on the project with your team.
+You will work on the project with your team. Use the provided Github-repo for your project. 
 
 The four primary deliverables for the final project are
 
@@ -43,7 +45,7 @@ The four primary deliverables for the final project are
 (topic-ideas)=
 ## Topic ideas 
 
-Identify 3 data sets you're interested in potentially using for the final project.
+Identify 2 data sets you're interested in potentially using for the final project.
 If you're unsure where to find data, you can use the list of potential data sources in the [Tips + Resources](project-tips-resources.md) section as a starting point.
 It may also help to think of topics you're interested in investigating and find data sets on those topics.
 
@@ -100,7 +102,7 @@ The purpose of the project proposal is to help you think about your analysis str
 
 Include the following in the proposal:
 
-### Section 1 - Introduction
+### Introduction
 
 The introduction section includes
 
@@ -109,7 +111,7 @@ The introduction section includes
 -   the general research question you wish to explore
 -   your hypotheses regarding the research question of interest.
 
-### Section 2 - Data description
+### Data description
 
 In this section, you will describe the data set you wish to explore.
 This includes
@@ -117,7 +119,7 @@ This includes
 -   description of the observations in the data set,
 -   description of how the data was originally collected (not how you found the data but how the original curator of the data collected it).
 
-### Section 3 - Analysis approach
+### Analysis approach
 
 In this section, you will provide a brief overview of your analysis approach.
 This includes:
@@ -125,16 +127,19 @@ This includes:
 -   Description of the response variable.
 -   Visualization and summary statistics for the response variable.
 -   List of variables that will be considered as predictors
--   Your model technique (multiple linear regression and logistic regression)
+-   Your model type (what kind of model(s) will you use ... e.g. linear regression)
 
-### Data dictionary (aka code book)
+### Data dictionary
 
-Submit a data dictionary for all the variables in your data set in the `README` of your project repo, in the `data` folder.
-Link to this file from your proposal writeup.
+Create a data dictionary for all the variables in your data set. Include the following information for every variable: Name, description, role, type and format.
+
+- `Role`: response, predictor, ID (ID columns are not used in a model but can help to better understand the data)
+- `Type`: nominal, ordinal or numeric
+- `Format`: int, float, string, category, date or object
 
 ### Submission
 
-Push all of your final changes to the GitHub repo, and submit the HTML or PDF of your proposal to Moodle.
+Push all of your final changes to the GitHub repo, and submit the HTML or PDF file of your proposal to Moodle.
 
 ### Proposal grading
 
@@ -156,34 +161,61 @@ Each component will be graded as follows:
 -   **Does not meet expectations (no credit)**: Major elements missing.
     Work is not neatly formatted and would not be presentable in a professional setting.
 
+
 (draft-report)=
 ## Draft report 
 
 The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
-Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.
+Therefore, the draft and peer review will focus primarily on the data preparation, exploratory data analysis, modeling, and initial interpretations.
 
-Write the draft in the **written-report.ipynb** file in your project repo (see folder reports).
+The structure of the draft report is as follows:
 
-Below is a brief description of the sections to focus on in the draft:
+- Introduction
+- Setup
+- Data
+    - Import data
+    - Data structure
+    - Data corrections
+    - Variable lists
+    - Data splitting
+- Analysis
+- Model
+    - Select model
+    - Training and validation
+    - Fit model
+    - Evaluation on test set
+- Results
 
-### Introduction and data
+Below is a brief description of the sections to focus on in the draft. 
 
-This section includes an introduction to the project motivation, data, and research question.
-Describe the data and definitions of key variables.
-It should also include some exploratory data analysis.
-All of the EDA won't fit in the paper, so focus on the EDA for the response variable and a few other interesting variables and relationships.
+### Introduction
 
-### Methodology
+This section includes an introduction to the project motivation, a data dictionary and research question.
 
-This section includes a brief description of your modeling process.
-Explain the reasoning for the type of model you're fitting, predictor variables considered for the model including any interactions.
-Additionally, show how you arrived at the final model by describing the model selection process, any variable transformations (if needed), and any other relevant considerations that were part of the model fitting process.
+
+### Setup
+
+Import all necessary Python libraries.
+
+### Data
+
+Includes all data prepartion steps.
+
+
+### Analysis
+
+Focus on the descriptive statistics and EDA for the response variable and a few other interesting variables and relationships.
+
+
+### Model
+
+Explain the reasoning for the type of model you're fitting and predictor variables considered for the model.
+
 
 ### Results
 
-In this section, you will output the final model and include a brief discussion of the model assumptions, diagnostics, and any relevant model fit statistics.
+This section includes initial interpretations and conclusions drawn from the model.
 
-This section also includes initial interpretations and conclusions drawn from the model.
 
 (peer-review)=
 ## Peer review
