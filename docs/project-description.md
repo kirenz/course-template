@@ -2,19 +2,19 @@
 
 ## Timeline
 
-[](topic-ideas) due Fri, Oct 4
+- [](topic-ideas) due Fri, Oct 4
 
-[](project-proposal) due Fri, Nov 25
+- [](project-proposal) due Fri, Nov 25
 
-[](draft-report) due Fri, Dec 9
+- [](draft-report) due Fri, Dec 9
 
-[](peer-review) due Fri, Dec 16
+- [](peer-review) due Fri, Dec 16
 
-[](written-report) due Fr, Feb 3 (2023)
+- [](written-report) due Fr, Feb 3 (2023)
 
-[](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
+- [](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
 
-[Presentation comments](#presentation-comments) due We, Feb 15 (2023)
+- [Presentation comments](#presentation-comments) due We, Feb 15 (2023)
 
 ## Introduction
 
@@ -24,7 +24,7 @@ The goal of the final project is for you to use analytical methods to analyze a 
 The data set may already exist or you may collect your own data by scraping the web.
 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
-The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a data set to analyze it in a meaningful way.
+The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like) and apply them to a data set to analyze it in a meaningful way.
 
 All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation).
 
@@ -43,7 +43,7 @@ The four primary deliverables for the final project are
 (topic-ideas)=
 ## Topic ideas 
 
-Identify 2-3 data sets you're interested in potentially using for the final project.
+Identify 3 data sets you're interested in potentially using for the final project.
 If you're unsure where to find data, you can use the list of potential data sources in the [Tips + Resources](project-tips-resources.md) section as a starting point.
 It may also help to think of topics you're interested in investigating and find data sets on those topics.
 
@@ -162,7 +162,7 @@ Each component will be graded as follows:
 The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
 Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.
 
-Write the draft in the **written-report.ipynb** file in your project repo.
+Write the draft in the **written-report.ipynb** file in your project repo (see folder reports).
 
 Below is a brief description of the sections to focus on in the draft:
 
@@ -189,9 +189,8 @@ This section also includes initial interpretations and conclusions drawn from th
 ## Peer review
 
 Critically reviewing others' work is a crucial part of the scientific process, and our course is no exception.
-Each lab team will be assigned two other teams's projects to review.
+Each team will be assigned two other teams's projects to review.
 Each team should push their draft to their GitHub repo by the due date.
-One lab in the following week will be dedicated to the peer review, and all reviews will be due by the end of that lab session.
 
 During the peer review process, you will be provided read-only access to your partner teams' GitHub repos.
 Provide your review in the form of GitHub issues to your partner team's GitHub repo using the issue template provided.
