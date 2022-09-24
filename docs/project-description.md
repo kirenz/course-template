@@ -393,11 +393,12 @@ The main body of the written report (not including the appendix) is no longer th
 
 ### Slides
 
-In addition to the written report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)) and record a video presentation that summarize and showcase your project.
-Introduce your research question and data set, showcase visualizations, and discuss the primary conclusions.
-These slides should serve as a brief visual addition to your written report and will be graded for content and quality.
+In addition to the written report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)). Additionaly, you have to record a screencast that summarize and showcase your project (see info [below](video-presentation)).
 
-**For submission, convert these slides to a .pdf document, and submit the PDF of the slides on Moodle.**
+Introduce your research question and data set, showcase visualizations, and discuss the primary conclusions.
+These slides should serve as a brief visual addition to your report and will be graded for content and quality.
+
+**For submission, convert these slides to a .pdf document, and submit the file on Moodle.**
 
 The slide deck should have no more than 6 content slides + 1 title slide.
 Here is a *suggested* outline as you think through the slides; you **do not** have to use this exact format for the 6 slides.
@@ -410,9 +411,10 @@ Here is a *suggested* outline as you think through the slides; you **do not** ha
 -   Slide 5: Interesting findings from the model
 -   Slide 6: Conclusions + future work
 
+(video-presentation)=
 ### Video presentation
 
-For the video presentation, you can speak over your slide deck.
+For the video presentation (i.e., screencast), you can speak over your slide deck.
 **The video presentation must be no longer than 8 minutes.** It is fine if the video is shorter than 8 minutes, but it cannot exceed 8 minutes.
 You may use any platform that works best for your group to record your presentation.
 Below are a few resources on recording videos:
@@ -422,7 +424,7 @@ Below are a few resources on recording videos:
 -   [Windows 10 built-in screen recording functionality](https://www.youtube.com/watch?v=OfPbr1mRDuo)
 -   [Kap for screen recording](https://getkap.co/)
 
-Once your video is ready, upload the video to Moodle, then embed the video in an new discussion post on the Moodle Forum.
+Once your video is ready, upload the video to Moodle.
 
 
 (presentation-comments)=
@@ -442,33 +444,7 @@ Additionally, the question should be (i) substantive (i.e. it shouldn't be "Why 
 
 All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized.
 
-The GitHub repo should have the following structure:
-
-```nohighlight
-├── README.md          <- The top-level README for people using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `01-JK-data-preparation.ipynb`.
-│
-├── references         <- Data dictionaries, project explanations, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements       <- The requirements file for reproducing the analysis environment, e.g. a `environment.yml` file
-
-```   
-
-
-*The project structure is based on DrivenData's [Cookiecutter Data Science-Template](https://drivendata.github.io/cookiecutter-data-science/)*
+You will find an overview of the GitHib structure in the README.md file of the GitHub repo (the project structure is based on DrivenData's [Cookiecutter Data Science-Template](https://drivendata.github.io/cookiecutter-data-science/).
 
 If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `reports/` folder.
 
