@@ -8,11 +8,11 @@ Please use the templates provided in your project GitHub-repo (see folder `refer
 
 - [](project-proposal) due Fri, Nov 25
 
-- [](draft-report) due Fri, Dec 9
+- [](draft-analysis) due Fri, Dec 9
 
-- [](peer-review) for draft report due Fri, Dec 16
+- [](peer-review) for draft analysis due Fri, Dec 16
 
-- [](written-report) due Fr, Feb 3 (2023)
+- [](report) due Fr, Feb 3 (2023)
 
 - [](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
 
@@ -162,13 +162,13 @@ Each component will be graded as follows:
     Work is not neatly formatted and would not be presentable in a professional setting.
 
 
-(draft-report)=
-## Draft report 
+(draft-analysis)=
+## Draft analysis 
 
 The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
 Therefore, the draft and peer review will focus primarily on the data preparation, exploratory data analysis, modeling, and initial interpretations.
 
-The structure of the draft report is as follows:
+The structure of the draft analysis is as follows:
 
 - Introduction
 - Setup
@@ -184,6 +184,7 @@ The structure of the draft report is as follows:
     - Training and validation
     - Fit model
     - Evaluation on test set
+    - Save model
 - Conclusion
 
 Below is a brief description of the sections to focus on in the draft. 
@@ -286,10 +287,10 @@ Issue template:
 If you are done, click on `Submit new issue`.
 
 
-(written-report)=
-## Written report
+(report)=
+## Report
 
-Your written report must be completed in the `written-report.ipynb` file (see folder `references/written-report/`) and must be reproducible. Assume that it will be used to communicate your results to other data analysts who are interested in your findings.
+Your final report must be completed in the `report.ipynb` file (see folder `reports/`) and must be reproducible. Assume that it will be used to communicate your results to other data analysts who are interested in your findings.
 
 All team members should contribute to the GitHub repository, with regular meaningful commits.
 
@@ -467,7 +468,9 @@ The GitHub repo should have the following structure:
 ```   
 
 
-If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `references/presentation/` folder.
+*The project structure is based on DrivenData's [Cookiecutter Data Science-Template](https://drivendata.github.io/cookiecutter-data-science/)*
+
+If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `reports/` folder.
 
 Points for reproducibility + organization will be based on the reproducibility of the written report and the organization of the project GitHub repo.
 
@@ -494,7 +497,7 @@ The grade breakdown is as follows:
 | **Topic ideas**                    | 5 pts   |
 | **Project proposal**               | 10 pts  |
 | **Peer review**                    | 10 pts  |
-| **Written report**                 | 40 pts  |
+| **Report**                         | 40 pts  |
 | **Slides + video presentation**    | 20 pts  |
 | **Reproducibility + organization** | 5 pts   |
 | **Video comments**                 | 5 pts   |
