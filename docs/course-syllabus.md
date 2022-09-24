@@ -42,17 +42,15 @@ While there is no official textbook for the course, we will be assigning reading
 - [Python for Data Analysis, 3E](https://wesmckinney.com/book/) by Wes McKinney
 
 
-## Lectures and labs
-
-The goal of both the lectures and the labs is for them to be as interactive as possible.My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them.
+## Lectures
 
 A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing.
-Therefore, as much as possible, you will be working on a variety of tasks and activities throughout each lecture and lab.
-You are expected to attend all lecture and lab sessions and meaningfully contribute to in-class exercises and discussion.
-Additionally, some lectures will feature [application exercises] that will be graded.
+Therefore, as much as possible, you will be working on a variety of tasks and activities throughout each lecture.
+
+Additionally, some lectures will feature application exercises that will be graded.
 
 You are expected to bring a laptop to each class so that you can take part in the in-class exercises.
-Please make sure your laptop is fully charged before you come to class as the number of outlets in the classroom will not be sufficient to accommodate everyone.
+
 
 ## Teams
 
