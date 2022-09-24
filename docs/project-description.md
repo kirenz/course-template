@@ -10,13 +10,13 @@ Please use the templates provided in your project GitHub-repo (see folder `refer
 
 - [](draft-report) due Fri, Dec 9
 
-- [](peer-review) due Fri, Dec 16
+- [](peer-review) for draft report due Fri, Dec 16
 
 - [](written-report) due Fr, Feb 3 (2023)
 
 - [](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
 
-- [Presentation comments](#presentation-comments) due We, Feb 15 (2023)
+- [Peer review for presentation](#presentation-comments) due We, Feb 15 (2023)
 
 ## Introduction
 
@@ -427,43 +427,13 @@ Once your video is ready, upload the video to Moodle, then embed the video in an
 (presentation-comments)=
 ## Presentation comments 
 
-Each student will be assigned 2 presentations to watch.
-Your viewing assignments will be posted later in the semester.
+Each student will be assigned 2 presentations to watch (your viewing assignments will be posted later in the semester)
 
 Watch the group's video, then click "Reply" to post a question for the group.
 You may not post a question that's already been asked on the discussion thread.
 Additionally, the question should be (i) substantive (i.e. it shouldn't be "Why did you use a bar plot instead of a pie chart"?), (ii) demonstrate your understanding of the content from the course, and (iii) relevant to that group's specific presentation, i.e demonstrating that you've watched the presentation.
 
 *This portion of the project will be assessed individually.*
-
-### Pairings
-
-Find your team name in the first column, watch videos from teams in the second column and leave comments.
-
-| Reviewer                         | First video to review            | Second video to review           |
-|:-----------------------|:-----------------------|:-----------------------|
-| Ginger and Stats                 | Eight                            | We R                             |
-| Krafthouse                       | Ginger and Stats                 | Eight                            |
-| Soy Nuggets                      | Krafthouse                       | Ginger and Stats                 |
-| Down To Earth Goats              | Soy Nuggets                      | Krafthouse                       |
-| A+++                             | Down To Earth Goats              | Soy Nuggets                      |
-| Team Five                        | A+++                             | Down To Earth Goats              |
-| Rrawr                            | Team Five                        | A+++                             |
-| Housecats                        | Rrawr                            | Team Five                        |
-| Dekk                             | Housecats                        | Rrawr                            |
-| Stat OverFlow                    | Dekk                             | Housecats                        |
-| The Three Musketeers             | Stat OverFlow                    | Dekk                             |
-| Predictors                       | The Three Musketeers             | Stat OverFlow                    |
-| Stats Squad                      | Predictors                       | The Three Musketeers             |
-| Statisix                         | Stats Squad                      | Predictors                       |
-| Sixers                           | Statisix                         | Stats Squad                      |
-| Yay Stats                        | Sixers                           | Statisix                         |
-| TINA                             | Yay Stats                        | Sixers                           |
-| Statchelorettes                  | TINA                             | Yay Stats                        |
-| Pineapple Wedge and Diced Papaya | Statchelorettes                  | TINA                             |
-| Chaa Chaa Chaa                   | Pineapple Wedge and Diced Papaya | Statchelorettes                  |
-| We R                             | Chaa Chaa Chaa                   | Pineapple Wedge and Diced Papaya |
-| Eight                            | We R                             | Chaa Chaa Chaa                   |
 
 
 (reproducibility)=
@@ -473,24 +443,40 @@ All written work (with exception of presentation slides) should be reproducible,
 
 The GitHub repo should have the following structure:
 
--   `README`: Short project description and data dictionary
+```nohighlight
+├── README.md          <- The top-level README for people using this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── models             <- Trained and serialized models, model predictions, or model summaries
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `01-JK-data-preparation.ipynb`.
+│
+├── references         <- Data dictionaries, project explanations, and all other explanatory materials.
+│
+├── reports            <- Generated analysis as HTML, PDF, etc.
+│   └── figures        <- Generated graphics and figures to be used in reporting
+│
+├── requirements       <- The requirements file for reproducing the analysis environment, e.g. a `environment.yml` file
 
--   `written-report.ipynb` & `written-report.pdf`: Final written report
+```   
 
--   `/data`: Folder that contains the data set for the final project.
 
--   `/previous-work`: Folder that contains the `topic-ideas` and `project-proposal` files.
-
--   `/presentation`: Folder with the presentation slides.
-
-    -   If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `presentation` folder.
+If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `references/presentation/` folder.
 
 Points for reproducibility + organization will be based on the reproducibility of the written report and the organization of the project GitHub repo.
+
 The repo should be neatly organized as described above, there should be no extraneous files, all text in the README should be easily readable.
 
 ## Peer teamwork evaluation
 
 You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member.
+
 Filling out the survey is a prerequisite for getting credit on the team member evaluation.
 If you are suggesting that an individual did less than half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please provide some explanation.
 If any individual gets an average peer score indicating that this was the case, their grade will be assessed accordingly.
@@ -520,7 +506,7 @@ The grade breakdown is as follows:
 
 Grading of the project will take into account the following:
 
--   Content - What is the quality of research and/or policy question and relevancy of data to those questions?
+-   Content - What is the quality of the research question and relevancy of data to those questions?
 -   Correctness - Are statistical procedures carried out and explained correctly?
 -   Writing and Presentation - What is the quality of the statistical presentation, writing, and explanations?
 -   Creativity and Critical Thought - Is the project carefully thought out? Are the limitations carefully considered? Does it appear that time and effort went into the planning and implementation of the project?
