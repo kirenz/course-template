@@ -2,9 +2,9 @@
 # Course support
 
 
-## Lectures and labs
+## Lectures
 
-If you have a question during lecture or lab, feel free to ask it!
+If you have a question during lecture, feel free to ask it!
 There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 
 
