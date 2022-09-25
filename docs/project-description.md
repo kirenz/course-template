@@ -2,24 +2,18 @@
 
 ## Timeline
 
-Please use the templates provided in your project GitHub-repo  to create the following files: 
+Please use the templates provided in your project GitHub-repo to create the following files: 
 
-| Topic | Deadline | GitHub folder |
-| ---   | ---      |  ---          |
-|[topic ideas](topic-ideas)| Fri, Oct 4 | references |
-|[](project-proposal) | Fri, Nov 25 | references |
-
-
-
-- [](draft-analysis) due Fri, Dec 9
-
-- [](peer-review) for draft analysis due Fri, Dec 16
-
-- [](report) due Fr, Feb 3 (2023)
-
-- [](video-presentation-slides) and [final GitHub repo](reproducibility) due We, Feb 10 (2023)
-
-- [Peer review for presentation](#presentation-comments) due We, Feb 15 (2023)
+| Topic                 | Deadline      | GitHub folder & hints |
+| ---                   | ---           |  ---                  |
+|[](topic-ideas)        | Fri, Oct 4    | references/           |
+|[](project-proposal)   | Fri, Nov 25   | references/           |
+|[](draft-analysis)     | Fri, Dec 9    | notebooks/            |
+|[](peer-review-draft)  | Fri, Dec 16   | use [](issue-template)|
+|[](report)             | Fr, Feb 3     | reports/              |
+|[](slides-video)       | We, Feb 10    | reports/              |
+|[](github-repo)        | We, Feb 10    | Final repo            |
+|[](comments)           | We, Feb 15    | "use an Issue"                |
 
 ## Introduction
 
@@ -168,8 +162,7 @@ Each component will be graded as follows:
 (draft-analysis)=
 ## Draft analysis 
 
-The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis.
-Therefore, the draft and peer review will focus primarily on the data preparation, exploratory data analysis, modeling, and initial interpretations.
+The purpose of the draft analysis is to give you an opportunity to get early feedback on your analysis. Each team should push their final version of the draft analysis to their GitHub repo by the due date.
 
 The structure of the draft analysis is as follows:
 
@@ -223,19 +216,19 @@ Explain the reasoning for the type of model you're fitting and predictor variabl
 This section includes initial interpretations and conclusions drawn from the model.
 
 
-(peer-review)=
-## Peer review
+(peer-review-draft)=
+## Peer review draft analysis
 
-Critically reviewing others' work is a crucial part of the scientific process, and our course is no exception.
-Each team will be assigned two other teams's projects to review.
-Each team should push their draft to their GitHub repo by the due date.
+Critically reviewing others' work is a crucial part of the scientific process, and our course is no exception. Each team will be assigned two other teams's projects to review.
 
 During the peer review process, you will be provided read-only access to your partner teams' GitHub repos.
 
-Provide your review in the form of [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) to your partner team's GitHub repo using the issue template provided.
+Provide your review in the form of [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) to your partner team's GitHub repo using the issue template provided (see below).
+
 The peer review will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, modeling, interpretations, and conclusions.
 
-### Process and questions
+(issue-template)=
+### Issue template
 
 Spend \~30 mins to review each team's project.
 
@@ -244,6 +237,7 @@ Spend \~30 mins to review each team's project.
 3. Then, go to the `Issues` tab in that repo, click on `New issue` and fill out the issue by answering the following questions (copy the following content and replace it with your feedback):
 
 Issue template:
+
 
 ```md
 
@@ -285,7 +279,6 @@ Issue template:
 - (Optional) Any further comments or feedback?
 
 ```
-
 
 If you are done, click on `Submit new issue`.
 
@@ -391,15 +384,18 @@ If there is an appendix, it is reasonably organized and easy for the reader to f
 All code, warnings, and messages are suppressed.
 The main body of the written report (not including the appendix) is no longer than 10 pages.
 
-(video-presentation-slides)=
-## Video presentation + slides
+(slides-video)=
+## Slides & video presentation
 
+(slides)=
 ### Slides
 
-In addition to the written report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)). Additionaly, you have to record a screencast that summarize and showcase your project (see info [below](video-presentation)).
+In addition to the report, your team will also create presentation slides (e.g. [Google Slides](https://www.google.com/intl/en_en/slides/about/) with an adequate [template](https://slidesgo.com/themes)). Additionaly, you have to record a video (screencast) that summarize and showcase your project (see [](video)).
 
 Introduce your research question and data set, showcase visualizations, and discuss the primary conclusions.
 These slides should serve as a brief visual addition to your report and will be graded for content and quality.
+
+If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `reports/` folder.
 
 **For submission, convert these slides to a .pdf document, and submit the file on Moodle.**
 
@@ -414,7 +410,7 @@ Here is a *suggested* outline as you think through the slides; you **do not** ha
 -   Slide 5: Interesting findings from the model
 -   Slide 6: Conclusions + future work
 
-(video-presentation)=
+(video)=
 ### Video presentation
 
 For the video presentation (i.e., screencast), you can speak over your slide deck.
@@ -430,7 +426,20 @@ Below are a few resources on recording videos:
 Once your video is ready, upload the video to Moodle.
 
 
-(presentation-comments)=
+(github-repo)=
+## GitHub repo
+
+All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized.
+
+:::{Note}
+Do not change the content or structure of the repo after the stated deadline. 
+:::
+
+You will find an overview of the GitHub structure in the README.md file of the GitHub repo (the project structure is based on DrivenData's [Cookiecutter Data Science-Template](https://drivendata.github.io/cookiecutter-data-science/)).
+
+Points for reproducibility + organization will be based on the reproducibility of the report and the organization of the project GitHub repo. The repo should be neatly organized, there should be no extraneous files, all text in the README should be easily readable.
+
+(comments)=
 ## Presentation comments 
 
 Each student will be assigned 2 presentations to watch (your viewing assignments will be posted later in the semester)
@@ -442,18 +451,7 @@ Additionally, the question should be (i) substantive (i.e. it shouldn't be "Why 
 *This portion of the project will be assessed individually.*
 
 
-(reproducibility)=
-## Reproducibility + organization
 
-All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized.
-
-You will find an overview of the GitHib structure in the README.md file of the GitHub repo (the project structure is based on DrivenData's [Cookiecutter Data Science-Template](https://drivendata.github.io/cookiecutter-data-science/).
-
-If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `reports/` folder.
-
-Points for reproducibility + organization will be based on the reproducibility of the written report and the organization of the project GitHub repo.
-
-The repo should be neatly organized as described above, there should be no extraneous files, all text in the README should be easily readable.
 
 ## Peer teamwork evaluation
 
