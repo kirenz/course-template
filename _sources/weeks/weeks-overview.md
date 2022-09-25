@@ -1,22 +1,22 @@
 # Overview
 
-This section contains the weekly resources and is structured as follows:
+This section contains the weekly course resources and is structured as follows:
 
 ---
 
-📚 **Prepare**  : content you should prepare before attending the lecture 
+📚 **Prepare**: Content you should prepare before attending the lecture. 
 
 ---
 
-📘 **Participate**: Lecture resources 
+📘 **Participate**: Lecture resources (mainly slides)
 
 ---
 
-💻 **Practice**: Application exercises (AE) to practice the concepts and code introduced in the readings and lectures. 
+💻 **Practice**: Application exercises (AE) to practice concepts and code
 
 
 ---
 
-💯  **Perform**: Includes homeworks (HW) and important assignment dates (for exams and projects)
+💯  **Perform**: Homeworks (HW) and important assignment dates (exams and projects)
 
 ---
