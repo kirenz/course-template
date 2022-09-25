@@ -2,7 +2,6 @@
 
 ## Timeline
 
-Please use the templates provided in your project GitHub-repo to create the following files: 
 
 | Topic                 | Deadline      | GitHub folder & hints |
 | ---                   | ---           |  ---                  |
@@ -11,9 +10,12 @@ Please use the templates provided in your project GitHub-repo to create the foll
 |[](draft-analysis)     | Fri, Dec 9    | notebooks/            |
 |[](peer-review-draft)  | Fri, Dec 16   | use [](issue-template)|
 |[](report)             | Fr, Feb 3     | reports/              |
-|[](slides-video)       | We, Feb 10    | reports/              |
-|[](github-repo)        | We, Feb 10    | "Repo in final state" |
+|[](slides-video)       | Fri, Feb 10   | reports/              |
+|[](github-repo)        | Fri, Feb 10   | "Repo in final state" |
 |[](comments)           | We, Feb 15    | "Comment in Moodle"   |
+|[](team-eval)          | Fri,Feb 17    | "Fill out survey"     |
+
+Information about [grading](grading).
 
 
 ## Introduction
@@ -26,15 +28,16 @@ The data set may already exist or you may collect your own data by scraping the 
 Choose the data based on your group's interests or work you all have done in other courses or research projects.
 The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like) and apply them to a data set to analyze it in a meaningful way.
 
-All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation).
+All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation) placed inside the provided GitHub repo.
 
 ### Logistics
 
-You will work on the project with your team. Use the provided Github-repo for your project. 
+You will work on the project with your team. Use the provided Github-repo and template files for your project. 
 
-The four primary deliverables for the final project are
+The primary deliverables for the final project are
 
--   A written, reproducible report detailing your analysis
+-   A draft analysis ("draft-analysis.ipynb")
+-   A written, reproducible report detailing your analysis ("report.ipynb")
 -   A GitHub repository corresponding to your report
 -   Slides + a video presentation
 -   Formal peer review on another team's project
@@ -456,7 +459,8 @@ Additionally, the question should be
 
 *This portion of the project will be assessed individually.*
 
-## Peer teamwork evaluation
+(team-eval)=
+## Teamwork evaluation
 
 You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member.
 
@@ -468,6 +472,7 @@ If you have concerns with the teamwork and/or contribution from any team members
 **You only need to email me if you have concerns**.
 Otherwise, I will assume everyone on the team equally contributed and will receive full credit for the teamwork portion of the grade.
 
+(grading)=
 ## Overall grading
 
 The grade breakdown is as follows:
