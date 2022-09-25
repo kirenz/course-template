@@ -1,4 +1,4 @@
-# Course title
+# Course overview
 
 Learn ... for analyzing multivariate data sets, emphasizing analysis of variance, linear regression, and logistic regression.
 
