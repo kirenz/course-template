@@ -170,6 +170,7 @@ The purpose of the draft analysis is to give you an opportunity to get early fee
 
 The structure of the draft analysis is as follows:
 
+```md
 - Introduction
 - Setup
 - Data
@@ -186,38 +187,21 @@ The structure of the draft analysis is as follows:
     - Evaluation on test set
     - Save model
 - Conclusion
+```
 
 Below is a brief description of the sections to focus on in the draft. 
 
-### Introduction
+- *Introduction*: This section includes an introduction to the project motivation, a data dictionary and research question.
 
-This section includes an introduction to the project motivation, a data dictionary and research question.
+- *Setup*: Import all necessary Python libraries.
 
+- *Data*: Includes all data prepartion steps.
 
-### Setup
+- *Analysis*: Focus on the descriptive statistics and EDA for the response variable and a few other interesting variables and relationships. Interpret the results.
 
-Import all necessary Python libraries.
+- *Model*: Explain the reasoning for the type of model you're fitting and predictor variables considered for the model. Save the model in your models/ folder.
 
-### Data
-
-Includes all data prepartion steps.
-
-
-### Analysis
-
-Focus on the descriptive statistics and EDA for the response variable and a few other interesting variables and relationships. 
-
-**Interpret the results.**
-
-
-### Model
-
-Explain the reasoning for the type of model you're fitting and predictor variables considered for the model.
-
-
-### Conclusion
-
-This section includes initial interpretations and conclusions drawn from the model.
+- *Conclusion*: This section includes initial interpretations and conclusions drawn from the model.
 
 
 (peer-review-draft)=
@@ -290,11 +274,11 @@ If you are done, click on `Submit new issue`.
 (report)=
 ## Report
 
-Your final report must be completed in the `report.ipynb` file (see folder `reports/`) and must be reproducible. Assume that it will be used to communicate your results to other data analysts who are interested in your findings.
+Your final report has to be created in the `report.ipynb` file (see folder `reports/`) and must be reproducible. Assume that it will be used to communicate your results to other data analysts who are interested in your findings.
 
 All team members should contribute to the GitHub repository, with regular meaningful commits.
 
-**You also need to submit the HTML of your final report on Moodle** (the HTML you submit must match the files in your GitHub repository *exactly*).
+**You also need to submit the HTML of your final report in Moodle** (the HTML you submit must match the files in your GitHub repository *exactly*).
 
 The mandatory components of the report are below. You are free to add additional sections as necessary.
 The report, including visualizations, should be **no more than 10 pages long.** There is no minimum page requirement; however, you should comprehensively address all of the analysis and report.
