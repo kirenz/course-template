@@ -6,3 +6,5 @@ This page contains an outline of the topics, content, and assignments for the se
 | Week | Date | Topic  | Lecture    | Reading        | Assignment
 | ---  | ---  | ---    | ---        | ---            | ---
 a      | b    | c      | d          | e              | f
+
+

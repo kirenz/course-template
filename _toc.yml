@@ -6,9 +6,8 @@ parts:
     - file: docs/course-overview.md
     - file: docs/course-schedule.md
     - file: docs/course-syllabus.md
-    - file: docs/course-links.md
     - file: docs/course-support.md
-    - file: docs/course-faq.md
+ #  - file: docs/course-faq.md
   - caption: Project
     chapters:
     - file: docs/project-description.md
