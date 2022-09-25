@@ -8,6 +8,18 @@ Gain experience dealing with the challenges that arise in practice through assig
 
 This class emphasizes data analysis over mathematical theory.
 
+---
+
+Important links:
+
+- [GitHub repo for project]()
+
+- [Moodle discussion forum]()
+
+- [Moodle assignment upload]()
+
+---
+
 
 ```{image} ../_static/img/course-overview.png
 :alt: text
