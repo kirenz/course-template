@@ -15,8 +15,6 @@
 |[](comments)           | We, Feb 15    | "Comment in Moodle"   |
 |[](team-eval)          | Fri,Feb 17    | "Fill out survey"     |
 
-Information about [grading](grading).
-
 
 ## Introduction
 
