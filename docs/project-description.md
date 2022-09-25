@@ -12,8 +12,9 @@ Please use the templates provided in your project GitHub-repo to create the foll
 |[](peer-review-draft)  | Fri, Dec 16   | use [](issue-template)|
 |[](report)             | Fr, Feb 3     | reports/              |
 |[](slides-video)       | We, Feb 10    | reports/              |
-|[](github-repo)        | We, Feb 10    | Final repo            |
-|[](comments)           | We, Feb 15    | "use an Issue"                |
+|[](github-repo)        | We, Feb 10    | "Repo in final state" |
+|[](comments)           | We, Feb 15    | "Comment in Moodle"   |
+
 
 ## Introduction
 
@@ -444,14 +445,16 @@ Points for reproducibility + organization will be based on the reproducibility o
 
 Each student will be assigned 2 presentations to watch (your viewing assignments will be posted later in the semester)
 
-Watch the group's video, then click "Reply" to post a question for the group.
+Watch the group's video, then use the Moodle Forum to post a question for the group.
 You may not post a question that's already been asked on the discussion thread.
-Additionally, the question should be (i) substantive (i.e. it shouldn't be "Why did you use a bar plot instead of a pie chart"?), (ii) demonstrate your understanding of the content from the course, and (iii) relevant to that group's specific presentation, i.e demonstrating that you've watched the presentation.
+
+Additionally, the question should be 
+
+- substantive (i.e. it shouldn't be "Why did you use a bar plot instead of a pie chart"?)
+- demonstrate your understanding of the content from the course, and 
+- relevant to that group's specific presentation, i.e demonstrating that you've watched the presentation.
 
 *This portion of the project will be assessed individually.*
-
-
-
 
 ## Peer teamwork evaluation
 
