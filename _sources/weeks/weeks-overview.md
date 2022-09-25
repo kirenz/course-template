@@ -1,6 +1,6 @@
 # Overview
 
-This section contains the weekly resources and is structures as follows:
+This section contains the weekly resources and is structured as follows:
 
 ---
 
