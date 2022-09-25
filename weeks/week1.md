@@ -6,6 +6,8 @@
 Text
 ```
 
+---
+
 (prepare)=
 ## Prepare
 
@@ -13,17 +15,22 @@ Text
 
 📚 Read the [support](/course-support.html) resources
 
+---
+
 (participate)=
 ## Participate
 
-📘 [Lab 0 -](/_slides/lab-0.html)[Meet](/slides/lab-0.html)[+ greet](/_slides/lab-0.html)
-
 📘 [Lecture 1 - Welcome to STA 210](/slides/lec-1.html)
+
+---
 
 (practice)=
 ## Practice
 
 💻  [AE 0 - Movies](/ae/ae-0-movies.html)
+
+
+---
 
 (perform)=
 ## Perform
@@ -38,4 +45,4 @@ Text
 
 ---
 
-Back to [course schedule](./docs/course-schedule.md) ⏎
+Back to [course schedule](../docs/course-schedule.md) ⏎
