@@ -1,33 +1,28 @@
 # Week 1
 
- ```{admonition} Important
-:class: tip
-
-Text
-```
 
 ---
 
 (prepare)=
 ## Prepare
 
-📚 Read the [syllabus](/course-syllabus.html)
+📚 Read the [syllabus](../docs/course-syllabus.md)
 
-📚 Read the [support](/course-support.html) resources
+📚 Read the [support resources](../docs/course-support.md)
 
 ---
 
 (participate)=
 ## Participate
 
-📘 [Lecture 1 - Welcome to STA 210](/slides/lec-1.html)
+📘 Download: [Introduction](/slides/lec-1.html)
 
 ---
 
 (practice)=
 ## Practice
 
-💻  [AE 0 - Movies](/ae/ae-0-movies.html)
+💻 [AE 1](/ae/ae-0-movies.html)
 
 
 ---
@@ -35,13 +30,9 @@ Text
 (perform)=
 ## Perform
 
-💯[Lab 0 - Meet + greet](/labs/lab-0.html)
+💯 No assignments this week 
 
-<br><br>
 
-:::{Note}
-Text
-:::
 
 ---
 
