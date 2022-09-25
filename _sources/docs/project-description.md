@@ -484,7 +484,7 @@ The grade breakdown is as follows:
 | **Peer review**                    | 10 pts  |
 | **Report**                         | 40 pts  |
 | **Slides + video presentation**    | 20 pts  |
-| **Reproducibility + organization** | 5 pts   |
+| **Reproducibility + orga (GitHub)**| 5 pts   |
 | **Video comments**                 | 5 pts   |
 | **Peer teamwork evaluation**       | 5 pts   |
 
@@ -509,4 +509,6 @@ A general breakdown of scoring is as follows:
 
 ### Late work policy
 
-**There is no late work accepted on this project.** Be sure to turn in your work early to avoid any technological mishaps.
+Projects may be submitted up to 3 days late. There will be a 25% deduction for each 24-hour period the project is late. 
+
+Be sure to turn in your work early to avoid any technological mishaps.

@@ -187,12 +187,12 @@ On individual assignments you may not directly share code with another student i
 The due dates for assignments are there to help you keep up with the course material. However, I understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Here are the rules for late submissions:
 
 -   *Homeworks* may be submitted up to 3 days late.
-    There will be a 10% deduction for each 24-hour period the assignment is late.
+    There will be a 25% deduction for each 24-hour period the assignment is late.
 
 -   There is no late work accepted for *application exercises*, since these are designed to help you prepare for homeworks.
 
 -   There is no late work policy for *exams* (they need to be completed in a specific timeframe)
 
--   Projects may be submitted up to 3 days late. There will be a 20% deduction for each 24-hour period the project is late.
+-   Projects may be submitted up to 2 days late. There will be a 25% deduction for each 24-hour period the project is late.
 
 If there are important circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email me at [kirenz@hdm-stuttgart.de](mailto:kirenz@hdm-stuttgart.de) before the deadline.
