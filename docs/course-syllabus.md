@@ -17,7 +17,7 @@ By the end of the semester, you will be able to...
 -   analyze real-world data to answer questions about multivariable relationships.
 -   fit and evaluate linear and logistic regression models.
 -   assess whether a proposed model is appropriate and describe its limitations.
--   use Quarto to write reproducible reports and GitHub for version control and collaboration.
+-   use Python to write reproducible reports and GitHub for version control and collaboration.
 -   communicate results from statistical analyses to a general audience.
 
 ## Communication
@@ -64,13 +64,12 @@ Commits to this repository will be used as a metric (one of several) of each tea
 
 ## Assessment
 
-Assessment for the course is comprised of six components: 
+Assessment for the course is comprised of four components: 
 
-- [application exercises](application-exercises), 
-- [homework assignments](hw), 
-- [exams](exams), 
-- [projects](projects), and 
-- [teamwork](teamwork).
+- [application exercises](application-exercises)
+- [homework assignments](hw) 
+- [exams](exams)
+- [project](project)
 
 (application-exercises)=
 ### Application exercises
