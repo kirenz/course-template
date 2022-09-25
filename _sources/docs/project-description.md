@@ -7,11 +7,9 @@ Please use the templates provided in your project GitHub-repo  to create the fol
 | Topic | Deadline | GitHub folder |
 | ---   | ---      |  ---          |
 |[topic ideas](topic-ideas)| Fri, Oct 4 | references |
+|[](project-proposal) | Fri, Nov 25 | references |
 
 
-
-
-- [](project-proposal) due Fri, Nov 25
 
 - [](draft-analysis) due Fri, Dec 9
 
