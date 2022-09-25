@@ -2,9 +2,14 @@
 
 ## Timeline
 
-Please use the templates provided in your project GitHub-repo (see folder `references`) to create the following files: 
+Please use the templates provided in your project GitHub-repo  to create the following files: 
 
-- [](topic-ideas) due Fri, Oct 4
+| Topic | Deadline | GitHub folder |
+| ---   | ---      |  ---          |
+|[topic ideas](topic-ideas)| Fri, Oct 4 | references |
+
+
+
 
 - [](project-proposal) due Fri, Nov 25
 
