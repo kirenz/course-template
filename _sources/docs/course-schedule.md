@@ -4,5 +4,5 @@ This page contains an outline of the topics, content, and assignments for the se
 
 
 | Week | Date | Topic  | Slides | To do |
-| ---  | ---  | ---    | ---    | --- |
-a      | b    | c      | d      | e   |
+| ---  | ---  | ---    | ---    | ---   |
+a      | b    | c      | d      | e     |
