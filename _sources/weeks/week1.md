@@ -10,19 +10,29 @@
 
 📚 Read the [support resources](../docs/course-support.md)
 
+📚 Review the [programming toolkit](../docs/programming-toolkit.md)
+
 ---
 
 (participate)=
 ## Participate
 
-📘 Download: [Introduction](/slides/lec-1.html)
+Download slides:
+
+📘
+
+
+Install programming tools:
+
+- [programming toolkit](../docs/programming-toolkit.md)
+
 
 ---
 
 (practice)=
 ## Practice
 
-💻 [AE 1](/ae/ae-0-movies.html)
+💻 [AE 1]()
 
 
 ---
@@ -30,8 +40,11 @@
 (perform)=
 ## Perform
 
-💯 No assignments this week 
+📄 Homework
 
+💯 Exam 
+
+📁 Project
 
 
 ---
