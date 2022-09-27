@@ -17,9 +17,9 @@
 (participate)=
 ## Participate
 
-Download slides:
-
-📘
+- Introduction | [📘](https://docs.google.com/presentation/d/14mDixoFHReJhc7D3G0ooC_CZJ8R14AcjJLXqFfUmKgo/export/pdf)	|
+	
+- Programming Toolkit	|	[📘](https://docs.google.com/presentation/d/1AHDCyelaOumvZ9-MRLEaSGCulXvvo-hcoFRrTESQW-c/export/pdf)	|	
 
 
 Install programming tools:
@@ -32,13 +32,16 @@ Install programming tools:
 (practice)=
 ## Practice
 
-💻 [AE 1]()
+💻 [AE 0](/ae/ae-0-movies.html)
 
 
 ---
 
 (perform)=
 ## Perform
+
+There are no assignments this week
+
 
 📄 Homework
 
