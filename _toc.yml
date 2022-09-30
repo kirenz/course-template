@@ -1,5 +1,5 @@
 format: jb-book
-root: docs/docs/course-schedule.md
+root: docs/course-schedule.md
 parts:
   - caption: Course information
     chapters:
