@@ -1,10 +1,12 @@
 # Overview
 
-This section contains the weekly course resources and is structured as follows:
+This section contains the weekly course materials and is structured as follows:
 
 ---
 
-**Prepare**: Content you should prepare before attending the lecture. 
+## Prepare
+
+Content you should prepare before attending the lecture. 
 
 📚 Readings
 
@@ -14,26 +16,33 @@ This section contains the weekly course resources and is structured as follows:
 
 ---
 
-**Participate**: Lecture resources 
+## Participate
 
-📘 Download slides
+Lecture materials: 
+
+📑 Slides
 
 ⏯ Web-tutorials
 
 ---
 
-**Practice**: Application exercises (AE) to practice concepts and code
+## Practice
+
+Application exercises (AE) to practice concepts and code:
 
 💻 Application exercises
 
 ---
 
-**Perform**: Homeworks (HW) and important assignment dates (exams and projects)
+## Perform
 
-📄 Homework
+Homeworks (HW) and important assignment dates (exams and projects)
+
+
+🖥 Homework
 
 💯 Exam 
 
-📁 Project
+📘 Project
 
 ---

@@ -28,7 +28,7 @@ The goal of this project is for you to demonstrate proficiency in the techniques
 
 All analyses must be done in Python, and all components of the project **must be reproducible** (with the exception of the final presentation) placed inside the provided GitHub repo.
 
-### Logistics
+## Logistics
 
 You will work on the project with your team. Use the provided Github-repo and template files for your project. 
 
@@ -77,17 +77,18 @@ The data sets should meet the following criteria:
 
 For each data set, include the following:
 
-#### Introduction and data
+**Introduction and data**
 
 -   State the source of the data set.
 -   Describe when and how it was originally collected (by the original data curator, not necessarily how you found the data)
 -   Describe the observations and the general characteristics being measured in the data
 
-#### Research question
+**Research question**
 
 -   Describe a research question you're interested in answering using this data.
 
-#### Overview of data
+
+**Overview of data**
 
 -   Use the Pandas functions to provide an overview of each data set
 
