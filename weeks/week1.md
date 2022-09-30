@@ -18,10 +18,10 @@
 
 Download slides:
 
+📑 [Download slides]()
 
-Install programming tools:
 
-[programming toolkit](../docs/programming-toolkit.md)
+💾 [Install programming tools](../docs/programming-toolkit.md)
 
 
 ---
