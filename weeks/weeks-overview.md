@@ -16,7 +16,7 @@ This section contains the weekly course resources and is structured as follows:
 
 **Participate**: Lecture resources 
 
-📘 Download slides
+📑 Download slides
 
 ⏯ Web-tutorials
 
@@ -30,10 +30,10 @@ This section contains the weekly course resources and is structured as follows:
 
 **Perform**: Homeworks (HW) and important assignment dates (exams and projects)
 
-📄 Homework
+🖥 Homework
 
 💯 Exam 
 
-📁 Project
+📘 Project
 
 ---
