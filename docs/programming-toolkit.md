@@ -116,12 +116,16 @@ conda config --set channel_priority strict
 
 ### Create a new environment
 
-Now you can install some modules in a new Anaconda environment. The first environment will mainly be used for webscraping, therefore we call this new environment `webscraping`. 
+- On *Windows* open the Start menu and open the "Anaconda Command Prompt". 
+
+- On *macOS*: [Open a terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) 
+
+Now you can install some modules in a new Anaconda environment. We call this new environment `___`. 
 
 Copy this code and run it in your terminal (command prompt): 
 
 ```bash
-conda create -n webscraping python=3.9 requests pandas jupyter   beautifulsoup4 altair matplotlib seaborn 
+conda create -n ___ python=3.9 requests pandas jupyter beautifulsoup4 altair matplotlib seaborn 
 ```
 
 
@@ -137,13 +141,13 @@ simply type `y` and press enter.
 
 You should also create a new folder for our course. I recommend to only use lowercase characters and no white space (e.g., course_name) 
 
-In your terminal, type:
+In your terminal or command prompt, type:
 
 ```bash
 mkdir course_name
 ```
 
-You can now close the terminal.
+You can now close it.
 
 ---
 (vscode)=
@@ -197,7 +201,7 @@ We usually work with Jupyter Notebook files in VS Code. Open a Juptyer Notebook 
 
 ```
 
-If you can't select a kernel (like `base`or `webscraping`), try to close and restart VS Code.
+If you can't select a kernel (like the so called `base` kernel), try to close and restart VS Code.
 
 ### Optional tutorials
 
@@ -222,10 +226,12 @@ If you have troubles to use Anaconda in Visual Studio Code, follow these instruc
 (github)=
 ## Git and GitHub
 
-[GitHub](https://github.com/) is a provider of internet hosting for software development and version control using Git. We will use GitHub as a platform for web hosting and collaboration.
+Git is a version control system -- like the “Track Changes” features from Microsoft Word with many more additional features.
+
+[GitHub](https://github.com/) is a provider of internet hosting for software development and version control using Git. 
 
 :::{note}
-Git is a version control system -- like the “Track Changes” features from Microsoft Word with many more additional features.
+We will use GitHub as a platform for web hosting and collaboration.
 :::
 
 - Git can be used to store content 
@@ -259,12 +265,10 @@ You also need a free GitHub-account for our course. Please follow the instructio
 ```{admonition} To do
 :class: tip
 
-- [Create a GitHub account with your HdM-email](https://github.com/join)
+- [Create a free GitHub account with your HdM-email](https://github.com/join)
 - Verify your GitHub email
-- You may also sign up fot the free [student developer pack](https://education.github.com/pack)  
 - Install the [VS Code GitHub extension](https://code.visualstudio.com/docs/editor/github)
-
-- Install the [VS Code GitHub Classroom extension](https://marketplace.visualstudio.com/items?itemName=GitHub.classroom&ssr=false#overview)
+- Go to our [GitHub course classroom](), find your HdM id and link it with your GitHub account 
 - [Install GitHub desktop to synchronize your machine with GitHub](https://desktop.github.com/)
 ```
 
@@ -281,93 +285,3 @@ Before you install the next extension, make sure you have the following prerequi
 - Install the [VS Code GitHub Classroom extension](https://marketplace.visualstudio.com/items?itemName=GitHub.classroom&ssr=false#overview)
 
 ```
-
----
-
-
-## Fundamentals
-
-### Python
-
-Python is an object-oriented language (an object is an entity that contains data along with associated metadata and/or functionality).
-
-One thing that distinguishes Python from many other programming languages is that it is interpreted rather than compiled. This means that it is executed line by line which is particular useful for data analysis, as well as the creation of interactive, executable documents like Jupyter Notebooks.
-
-:::{Note}
-Python is an interpreted language. The Python interpreter runs a program by executing one statement at a time.
-:::
-
-On top of this, there is a broad ecosystem of third-party tools and modules (like Jupyter Notebook) that offer more specialized data science functionality.
-
----
-
-### Jupyter Notebook
-
-[Jupyter Notebook](https://jupyter.org/) is an open-source application that allows you to create and share documents that contain code, equations, visualizations and narrative text. 
-
-<br>
-
-```{image} ../_static/img/jupyter.png
-:alt: jupyter
-:class: bg-primary mb-1
-:width: 300px
-:align: center
-```
-
-<br>
-
-A notebook is basically a list of cells and the cells contain either
-
-1. explanatory text (written in markdown)
-1. executable code
-1. code output
-
-Note that we will use Jupyter Notebook inside the coding editor Visual Studio Code or Google Colab.
-
-(colab)=
-### Colab
-
-Colaboratory, or “Colab” for short, is a free to use product from Google Research. Colab allows anybody to write and execute python code through the browser, and is especially well suited to perform data analysis and machine learning.
-
-:::{note}
-Colab is a free Jupyter notebook environment that requires no setup, and runs entirely on the Cloud.
-:::
-
-Watch this video to get a first impression of Colab:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/inN8seMm7UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Let`s start your first Colab notebook to get an overview about some basic features:
-
-```{admonition} Resources
-:class: tip
-- [Colab basic features overview](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
-```
-
----
-
-### Markdown
-
-Markdown is one of the world’s most popular markup languages used in data science. Jupyter Notebooks use Markdown to provide an unified authoring framework for data science, combining code, its results, and commentary in Markdown. 
-
-:::{note}
-Markdown is a simple way to format text that looks great on any device.
-:::
-
- Markdown files are designed to be used in three ways:
-
-1. For communicating to decision makers, who want to focus on the conclusions, not the code behind the analysis.
-
-2. For collaborating with other data scientists, who are interested in both your conclusions, and how you reached them (i.e. the code).
-
-3. As an environment in which to do data science, as a modern day lab notebook where you can capture not only what you did, but also what you were thinking.
-
-Review this site to learn more about Markdown:
-
-```{admonition} Resources
-:class: tip
-- [Interactive Colab Markdown guide](https://colab.research.google.com/notebooks/markdown_guide.ipynb)
-
-```
-
-
