@@ -293,3 +293,5 @@ Before you install the next extension, make sure you have the following prerequi
 - Install the [VS Code GitHub Classroom extension](https://marketplace.visualstudio.com/items?itemName=GitHub.classroom&ssr=false#overview)
 
 ```
+
+Close and restart VS Code.
