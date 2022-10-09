@@ -183,9 +183,11 @@ Let's install some extensions:
 
 ```{admonition} To do
 :class: tip
-
 - [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+
 - [Live Share Extension Pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
+
 ```
 
 Now **close and restart** VS Code.
